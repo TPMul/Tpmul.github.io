@@ -1,0 +1,154 @@
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.centered { 
+  margin:0 auto;
+  width:960px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+  
+
+/*---------End-------*/
+
+
+body {margin:0px auto;
+	  width: 100%;}
+
+
+h1 {text-align: center;}
+
+.mainnav {font-weight:bold;
+		  display: inline;
+		  font-size: 28px;
+		  text-transform: uppercase;
+		  font-family: tienne, serif;}
+
+
+#logo-replace {text-indent:-9999px;}
+
+.animals {
+	font-size: 120px;
+	color: black;
+	font-family: league-gothic, sans-serif;
+	text-transform: uppercase;}	
+
+#outer-border { margin-top:15px; 
+				border-top: 3px solid #a4acb3;
+			   	border-bottom: 3px solid #a4acb3;
+			   	display:inline-block;}
+
+#vs { border-top: 1.5px solid #a4acb3;
+	 border-bottom: 1.5px solid #a4acb3;
+	 text-transform: lowercase;
+	 vertical-align: middle;
+	 font-size: 75px;
+	 color: #a4acb3;
+	 font-family: 'IM Fell French Canon', serif;
+	 font-style: italic;}
+	
+
+
+
+
+#topnav {text-align: center;}
+
+a {text-decoration: none;
+   color: black;}
+
+h2 {font-weight: bold; 
+	font-size: 1.5em;
+	font-family: tienne, serif;
+	padding:5px 0px;}
+	
+#content { margin: 0 auto;
+	   width:960px;}
+
+#dogs {	   width: 40%; 
+	   float: left;
+	   padding-right:12%;}
+
+#cats {    width: 35%; 
+	   float: right;}
+
+p {line-height: 18px;
+   font-size: 1em;
+   font-family: serif;}
+
+hr {border: none;
+	height: 3.5px;
+	background-color: #191919;}
+
+.footlink {color:#b70000;}
+
+#footerlinks {margin-top: 30%; font-size: 12px;}
+
+#marth-link {margin-right: 24.5%; 
+			 float:right; }
+
+
+#wiki-link {margin-left: 24.5%; 
+			float: left; }
+
+#cvd-logo {margin: 0 auto;
+		   display:block;} 
