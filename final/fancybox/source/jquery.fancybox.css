@@ -224,9 +224,8 @@
 
 .fancybox-title-float-wrap {
 	position: absolute;
-	bottom: 0;
+	bottom: 10px;
 	right: 50%;
-	margin-bottom: -35px;
 	z-index: 8050;
 	text-align: left;
 }
