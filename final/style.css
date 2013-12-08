@@ -149,6 +149,11 @@ div p {font-size: .9em;
 	   color:#606366;
 	   font-weight: normal;
 	   text-align: left;}
+	   
+	   
+.works-page {padding-top:5%;}
+
+.works-page img {padding-bottom:2%;}
 
 
 /*BEGIN MEDIA QUERIES*/
