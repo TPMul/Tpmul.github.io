@@ -59,12 +59,23 @@ header {height:100%;
 		width:20%;
 		box-shadow: 2px 2px 3px #f0f0f0; }
 
-header h1 {text-indent: -9999px;}
+
+header h1  {font-size: 1.5em;
+			color: #606366;
+			font-family: 'raleway', sans-serif;
+			font-weight: lighter;
+			padding-bottom: 8%;
+			text-transform: lowercase;
+			text-align: center;
+			width:50%;
+			padding-left: 22%;}
+
+
 
 #logo {padding-left:33%;
 	   width: 23%;
 	   padding-top:12%;
-	   padding-bottom:15%; }
+	   padding-bottom:1.25%; }
 
 nav ul a {color:#606366; 
 		  text-decoration:none; 
@@ -86,11 +97,7 @@ section {float:left;
 		 padding-top: 10%;
 		 padding-left: 23%; }
 
-section h1 {font-size: 3em;
-			color: #606366;
-			font-family: 'raleway', sans-serif;
-			font-weight: lighter;
-			padding-bottom: 2%;}
+section h1 {text-indent: -9999px;}
 
 section h2 {font-size:1.5em;
 			color:#606366;
