@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Add Styles Here */
+
+
+.body {position:absolute;
+	   background-color:gray;
+	   top:300px;
+	   left:300px;
+	   width:150px;
+	   height: 225px;}
+
+.top-head { position: absolute;
+			top: -30px;
+  			left:-1px;
+  			width: 57.5px;
+  			height: 125px;
+  			border-radius:0 0 100px 100px;
+  			border:10px solid #737373;
+  			border-top:none;
+  			z-index: -1;
+  			background: #737373;
+  			-webkit-transform: rotate(180deg);}
+
+.head {position:absolute;
+	   background-color:#737373;
+	   top:-130px;
+	   left:35px;
+	   width:75px;
+	   height: 100px;
+	   z-index: 0;}
+
+.ant {position: absolute;
+	  top:-60px;
+	  left:37px;
+	  width: 5px;
+	  background: #737373;
+	  height:45px;
+	  z-index:4;} 
+		   
+.ant-top {	position:absolute;
+			top:-5px;
+			left: -2.5px; 
+			width: 10px;
+			height: 10px;
+			background: gray;
+			border-radius: 50%;}
+
+.ant-cuff {position: absolute;
+		   width: 25px;
+		   height: 7px;
+		   background: gray;
+		   border-radius: 50%;
+		   top:27px;
+		   left: -10px;}
+
+
+.eye-socket  {
+			 position: absolute;
+			 background: black;
+			 top: 5px;
+			 left:-5px;
+			 width: 70px;
+	   		 height: 35px;
+	   		 border-radius: 20%;
+	   		 z-index: 1;
+	   		 border:8px solid gray;
+			}	   
+
+.eyes {position:absolute;
+	   top:4px;
+	   left:4px;
+	   width: 30px;
+	   height: 30px;
+	   background: #ffffb2;
+	   border-radius: 50%;}
+
+.eyes:after { 
+  		content:"";
+  		width:30px;
+  		height:30px;
+  		background-color:#ffffb2;
+  		position:absolute;
+  		left:35px;
+  		top:0px;
+  		border-radius:50%;
+}	   
+
+.pupilsl {position: absolute;
+		 background: black;
+		 top:12px;
+		 left:11px;
+		 width: 7px;
+		 height: 5px;
+		 }
+
+.pupilsr {position: absolute;
+		 background: black;
+		 top:12px;
+		 left:45px;
+		 width: 7px;
+		 height: 5px;
+		 z-index: 2;}
+
+
+.mouth {position:absolute;
+	   top:60px;
+	   left:7px;
+	   width: 65px;
+	   height: 30px;
+	   background: #ffffb2;
+	   border-radius: 30%;}
+
+.lines1 {position:absolute;
+		top:7px;
+		left:-1px;
+		border-bottom: 1px solid black;
+		width:66px;
+		}	
+
+.lines2 {position:absolute;
+		top:14px;
+		left:-1px;
+		border-bottom: 1px solid black;
+		width:66px;
+		}
+
+.lines3 {position:absolute;
+		top:21px;
+		left:-1px;
+		border-bottom: 1px solid black;
+		width:66px;
+		}
+
+.lines4 {position:absolute;
+		top:0px;
+		left:15px;
+		border-left: 1px solid black;
+		height:30px;
+		}
+
+.lines5 {position:absolute;
+		top:0px;
+		left:30px;
+		border-left: 1px solid black;
+		height:30px;
+		}
+
+.lines6 {position:absolute;
+		top:0px;
+		left:45px;
+		border-left: 1px solid black;
+		height:30px;
+		}									   
+
+.top-torso {position: absolute;
+			top: -30px;
+  			left:-0.5px;
+  			width: 130.5px;
+  			height: 35px;
+  			border-radius:0 0 100px 100px;
+  			border:10px solid gray;
+  			border-top:none;
+  			z-index: -1;
+  			background: gray;
+  			-webkit-transform: rotate(180deg);}
+
+
+.l-arm {position: absolute;
+		top:10px;
+		left:-100px;
+		width:80px;
+		height:135px;
+		border-top:18px solid #A4A4A2;
+		border-left:18px solid #A4A4A2;
+		border-top-left-radius:200px;
+		}
+
+ .l-arm-cuff {position: absolute;
+		   width: 15px;
+		   height:55px;
+		   background: #8A8A86;
+		   border-radius: 50%;
+		   top:-33px;
+		   left:76px;}
+
+ .r-arm-cuff {position: absolute;
+		   width: 15px;
+		   height:55px;
+		   background: #8A8A86;
+		   border-radius: 50%;
+		   top:-33px;
+		   left: -8px;
+		   z-index: 4;}
+
+.r-arm {position: absolute;
+		top:10px;
+		left:150px;
+		width:80px;
+		height:135px;
+		border-top:18px solid #A4A4A2;
+		border-right:18px solid #A4A4A2;
+		border-top-right-radius:200px;}
+
+.r-leg {position: absolute;
+		width:23px;
+		height:200px;
+		background:#A4A4A2;
+		top:200px;
+		left:18px;
+		z-index: -2;}
+
+.l-leg {position: absolute;
+		width:23px;
+		height:200px;
+		background:#A4A4A2;
+		top:200px;
+		left:110px;
+		z-index: -2;}
+
+.l-foot {position: absolute;
+			top: 185px;
+  			left:-25px;
+  			width: 55px;
+  			height: 25px;
+  			border-radius:0 0 100px 100px;
+  			border:10px solid #737373;
+  			border-top:none;
+  			z-index: -1;
+  			background: #737373;
+  			-webkit-transform: rotate(180deg);}
+
+.r-foot {position: absolute;
+			top: 185px;
+  			left:-25px;
+  			width: 55px;
+  			height: 25px;
+  			border-radius:0 0 100px 100px;
+  			border:10px solid #737373;
+  			border-top:none;
+  			z-index: -1;
+  			background: #737373;
+  			-webkit-transform: rotate(180deg);}
+			      	   
+
+
