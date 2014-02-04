@@ -288,6 +288,15 @@ table {
   			z-index: -1;
   			background: #737373;
   			-webkit-transform: rotate(180deg);}
+
+p {font-family: 'Forque-webfont';
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  color: #be290b;
+  font-size: 24px;
+  -webkit-text-stroke-width:.5px;
+  -webkit-text-stroke-color: #fff48b;}
 			      	   
 
 
