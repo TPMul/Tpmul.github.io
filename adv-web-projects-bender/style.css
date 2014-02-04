@@ -243,6 +243,48 @@ table {
 		   top:-33px;
 		   left:76px;}
 
+.l-hand {position: absolute;
+	top:115px;
+	left: -33px;
+	border-bottom: 25px solid gray;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	height: 0;
+	width: 25px;}
+
+.l-finger-1 {position: absolute;
+			top: 25px;
+  			left:-6px;
+  			width: 5px;
+  			height: 15px;
+  			border-radius:0 0 100px 100px;
+  			border:2.8px solid #737373;
+  			border-top:none;
+  			z-index: -1;
+  			background: #737373;}
+
+.l-finger-2 {position: absolute;
+			top: 25px;
+  			left:8px;
+  			width: 5px;
+  			height: 15px;
+  			border-radius:0 0 100px 100px;
+  			border:2.8px solid #737373;
+  			border-top:none;
+  			z-index: -1;
+  			background: #737373;}
+
+.l-finger-3 {position: absolute;
+			top: 25px;
+  			left:22px;
+  			width: 5px;
+  			height: 15px;
+  			border-radius:0 0 100px 100px;
+  			border:2.8px solid #737373;
+  			border-top:none;
+  			z-index: -1;
+  			background: #737373;}
+
  .r-arm-cuff {position: absolute;
 		   width: 15px;
 		   height:55px;
@@ -260,6 +302,48 @@ table {
 		border-top:18px solid #A4A4A2;
 		border-right:18px solid #A4A4A2;
 		border-top-right-radius:200px;}
+
+.r-hand {position: absolute;
+	top:115px;
+	left: 65px;
+	border-bottom: 25px solid gray;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	height: 0;
+	width: 25px;}
+
+.r-finger-1 {position: absolute;
+			top: 25px;
+  			left:-6px;
+  			width: 5px;
+  			height: 15px;
+  			border-radius:0 0 100px 100px;
+  			border:2.8px solid #737373;
+  			border-top:none;
+  			z-index: -1;
+  			background: #737373;}
+
+.r-finger-2 {position: absolute;
+			top: 25px;
+  			left:8px;
+  			width: 5px;
+  			height: 15px;
+  			border-radius:0 0 100px 100px;
+  			border:2.8px solid #737373;
+  			border-top:none;
+  			z-index: -1;
+  			background: #737373;}
+
+.r-finger-3 {position: absolute;
+			top: 25px;
+  			left:22px;
+  			width: 5px;
+  			height: 15px;
+  			border-radius:0 0 100px 100px;
+  			border:2.8px solid #737373;
+  			border-top:none;
+  			z-index: -1;
+  			background: #737373;}
 
 .r-leg {position: absolute;
 		width:23px;
