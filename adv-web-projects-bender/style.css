@@ -48,6 +48,18 @@ table {
 }
 
 /* Add Styles Here */
+@font-face {
+    font-family: 'forqueregular';
+    src: url('font/Forque-webfont.eot');
+    src: url('font/Forque-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Forque-webfont.woff') format('woff'),
+         url('font/Forque-webfont.ttf') format('truetype'),
+         url('font/Forque-webfont.svg#forqueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
 .body {position:absolute;
@@ -289,14 +301,20 @@ table {
   			background: #737373;
   			-webkit-transform: rotate(180deg);}
 
-p {font-family: 'Forque-webfont';
+p {font-family: 'forqueregular';
   text-transform: uppercase;
   text-align: center;
-  margin: 0 auto;
+  position: absolute;
+  width:450px;
+  top:775px;
+  left:170px;
   color: #be290b;
-  font-size: 24px;
-  -webkit-text-stroke-width:.5px;
-  -webkit-text-stroke-color: #fff48b;}
+  font-size: 64px;
+  -webkit-text-stroke-width:2px;
+  -webkit-text-stroke-color: #ffe365;}
+
+
+  /*body {background-image:url(images/stars.jpg);}*/
 			      	   
 
 
