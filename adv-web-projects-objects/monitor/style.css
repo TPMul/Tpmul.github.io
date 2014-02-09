@@ -49,9 +49,7 @@ table {
 
 /* Add Styles Here */
 
-.body {
-	webkit-transform:scale(2);
-   position: absolute;
+.body {position: absolute;
    top:175px;
    left:500px;
    width: 350px;  
@@ -59,16 +57,25 @@ table {
    background-color:#0c0c0c;
    border-radius: 8px;}
 
+.m-audio-label {font-family: 'Michroma', sans-serif;
+				color: white;
+				opacity: .6;
+				font-size: 1.05em;
+				position: absolute;
+				left: 121px;
+				top:472px;
+				z-index: 1;}   
+
 .black-inside {position: absolute;
 	  		     top:5px;
-	  		 	 left:103px;
-	  		 	 width:150px;
+	  		 	 left:91px;
+	  		 	 width:170px;
 	  		 	 height: 490px;
 	  		 	 border-radius: 10px;
 	  		 	 background-color: black;}
 
 .sub-outter {position: absolute;
-			 top:180px;
+			 top:175px;
 			 left: 25px;
 			 height: 300px;
 			 width: 300px;
@@ -83,8 +90,22 @@ table {
 			 border-radius: 50%;
 			 background: #0c0c0c;}
 
-.sub-screen {position: absolute;
-			 }			 
+.sub-cone {position: absolute;
+			 top:30px;
+			 left: 30px;
+			 height: 230px;
+			 width: 230px;
+			 border-radius: 50%;
+			 border: 5px solid black;}}			 
+
+.sub-center {position: absolute;
+			 background: black;
+			 width:100px;
+			 height: 100px;
+			 border-radius: 50%;
+			 top: 100px;
+			 left: 100px;
+			 z-index: 3;}			 
 
 .tweeter {position: absolute;
 			 top:40px;
@@ -95,7 +116,7 @@ table {
 			 background: #0c0c0c;}
 
 .volume-circle {position: absolute;
-			 top:450px;
+			 top:445px;
 			 left:20px;
 			 height: 35px;
 			 width: 35px;
@@ -111,6 +132,23 @@ table {
 			 border-radius: 50%;
 			 background: black;
 			 }
+
+.volume-knob-inner{position: absolute;
+				   top:9px;
+				   left:9px;
+				   height: 10px;
+				   width: 10px;
+				   border-radius: 50%;
+				   background:#1c1c1c;
+				   z-index: 2;}
+
+
+.volume-line {position: absolute;
+			  top: 0px;
+			  left: 0px;
+			  border-top: 2px solid red;
+			  height: 1300.5px;
+			  }
 
 .volume-label {position: absolute;
 			top:39px;
