@@ -109,6 +109,38 @@ table {
 				width: 35px;
 				z-index: -1;}
 
+.twist-line-1 {position: absolute;
+			   width: 5px;
+			   height: 90px;
+			   top:-5px;
+			   left:24px;
+			   background:#e5c031;
+			   -webkit-transform:rotate(-105deg); }	
+
+.twist-line-2 {position: absolute;
+			   width: 5px;
+			   height: 110px;
+			   top:14px;
+			   left:23px;
+			   background:#e5c031;
+			   -webkit-transform:rotate(-105deg); }	
+
+.twist-line-3 {position: absolute;
+			   width: 5px;
+			   height: 130px;
+			   top:35px;
+			   left:23px;
+			   background:#e5c031;
+			   -webkit-transform:rotate(-105deg); }		
+
+.twist-line-4 {position: absolute;
+			   width: 5px;
+			   height: 140px;
+			   top:60px;
+			   left:28px;
+			   background:#e5c031;
+			   -webkit-transform:rotate(-105deg); }				   		   		
+
 .pull-it {top:-20px;
 		  left:-140px; 
 		  position: absolute;
