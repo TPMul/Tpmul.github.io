@@ -105,7 +105,7 @@ table {
 			 border-radius: 50%;
 			 top: 100px;
 			 left: 100px;
-			 z-index: 3;}			 
+			 }			 
 
 .tweeter {position: absolute;
 			 top:40px;
@@ -133,7 +133,7 @@ table {
 			 background: black;
 			 }
 
-.volume-knob-inner{position: absolute;
+.volume-knob-inner {position: absolute;
 				   top:9px;
 				   left:9px;
 				   height: 10px;
@@ -144,11 +144,13 @@ table {
 
 
 .volume-line {position: absolute;
-			  top: 0px;
-			  left: 0px;
-			  border-top: 2px solid red;
-			  height: 1300.5px;
-			  }
+			  top: 8px;
+			  left: 1px;
+			  height:1px;
+			  width:11px;
+			  background:white;
+			  opacity: .3;
+			  -webkit-transform:rotate(35deg);}
 
 .volume-label {position: absolute;
 			top:39px;
