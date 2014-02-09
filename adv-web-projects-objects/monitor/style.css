@@ -49,9 +49,8 @@ table {
 
 /* Add Styles Here */
 
-body {webkit-transform:scale(1.5);}
-
 .body {
+	webkit-transform:scale(2);
    position: absolute;
    top:175px;
    left:500px;
