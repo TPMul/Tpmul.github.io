@@ -55,8 +55,7 @@ table {
 	   height: 100px;
 	   width: 800px;
 	   border-radius:10px;
-	   background:#1c1c1c;
-	   z-index:3;}
+	   background:#1c1c1c;}
 
 .body-circle {position: absolute;
 			  top:-50px;
@@ -110,15 +109,13 @@ table {
 				width: 35px;
 				z-index: -1;}
 
-
-
 .twist-line-1 {position: absolute;
 			   width: 5px;
 			   height: 90px;
 			   top:-5px;
 			   left:24px;
 			   background:#e5c031;
-			   -webkit-transform:rotate(-105deg); }	
+			   -webkit-transform:rotate(-105deg);}
 
 .twist-line-2 {position: absolute;
 			   width: 5px;
@@ -126,7 +123,7 @@ table {
 			   top:14px;
 			   left:23px;
 			   background:#e5c031;
-			   -webkit-transform:rotate(-105deg); }	
+			   -webkit-transform:rotate(-105deg);}	
 
 .twist-line-3 {position: absolute;
 			   width: 5px;
@@ -134,7 +131,7 @@ table {
 			   top:35px;
 			   left:23px;
 			   background:#e5c031;
-			   -webkit-transform:rotate(-105deg); }		
+			   -webkit-transform:rotate(-105deg);}		
 
 .twist-line-4 {position: absolute;
 			   width: 5px;
@@ -142,7 +139,7 @@ table {
 			   top:60px;
 			   left:28px;
 			   background:#e5c031;
-			   -webkit-transform:rotate(-105deg); }				   		   		
+			   -webkit-transform:rotate(-105deg);}				   		   		
 
 .pull-it {top:-20px;
 		  left:-140px; 
@@ -153,7 +150,7 @@ table {
           border-radius:100%;
 		  -webkit-border-top-right-radius:0px;
 		  -webkit-transform:rotate(37deg);
-		  z-index:2}
+		  z-index:-1}
 
 
 .pull-it-body {-webkit-transform:rotate(-37deg);
@@ -162,8 +159,7 @@ table {
 				top: -7px;
 				left:88px;
 				height: 30px;
-				width: 50px;
-				z-index: -1;}
+				width: 50px;}
 
 .pull-it-inner {position: absolute;
 				top:20px;
@@ -171,8 +167,7 @@ table {
 				width:75px;
 				background: #04b3b3;
 				height:75px;
-				border-radius: 50%;
-				z-index: 0;}
+				border-radius: 50%;}
 
 .color-handle {position: absolute;
 			   left:150px;}
@@ -289,18 +284,18 @@ table {
 /* This is the element that we apply the animation to. */
 .pull-it:hover {
    -webkit-animation-name: pullit;
-   -webkit-animation-duration: 1s;
+   -webkit-animation-duration: .5s;
    -webkit-animation-timing-function: linear; /* default ease, (also: linear) */
    -webkit-animation-delay: 0s;             /* default 0 */
    -webkit-animation-iteration-count: 1;    /* default 1 (also: infinite) */
-   -webkit-animation-direction: alternate;  /* default normal */}
+   -webkit-animation-direction: normal;  /* default normal */}
 
 
-/* Define the keyframe */
+/*Define the keyframe*/ 
 @-webkit-keyframes twistit {
-   0% { -webkit-transform:translate(0px,0px); }
-   100% {-webkit-trandform:translate(1px,1px);}
-
+   0% { -webkit-transform:translate(0px,0px);}
+   50% {-webkit-trandform:translate(2px,2px);}
+   100% {-webkit-trandform:translate(2px,4px);}
 }
 
 /* This is the element that we apply the animation to. */
