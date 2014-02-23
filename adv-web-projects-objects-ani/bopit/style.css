@@ -291,7 +291,7 @@ table {
    -webkit-animation-direction: normal;  /* default normal */}
 
 
-/*Define the keyframe*/ 
+/*Define the keyframe*/
 @-webkit-keyframes twistit {
    0% { -webkit-transform:translate(0px,0px);}
    50% {-webkit-trandform:translate(2px,2px);}
