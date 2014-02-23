@@ -293,15 +293,15 @@ table {
 
 /*Define the keyframe*/
 @-webkit-keyframes twistit {
-   0% { -webkit-transform:translate(-20px,4px);}
-   50% {-webkit-trandform:translate(-21px,5px);}
-   100% {-webkit-trandform:translate(-22px,6px);}
+   0% { -webkit-transform:translate(-50px,-1px);}
+   50% {-webkit-transform:translate(-50px,-3px);}
+   100% {-webkit-transform:translate(-50px,-4px);}
 }
 
 /* This is the element that we apply the animation to. */
-.twist-it-lines:hover {
+.twist-it:hover .twist-it-lines {
    -webkit-animation-name: twistit;
-   -webkit-animation-duration: 1s;
+   -webkit-animation-duration: .5s;
    -webkit-animation-timing-function: ease; /* default ease, (also: linear) */
    -webkit-animation-delay: 0s;             /* default 0 */
    -webkit-animation-iteration-count: 1;    /* default 1 (also: infinite) */
