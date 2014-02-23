@@ -293,9 +293,9 @@ table {
 
 /*Define the keyframe*/
 @-webkit-keyframes twistit {
-   0% { -webkit-transform:translate(0px,0px);}
-   50% {-webkit-trandform:translate(1px,2px);}
-   100% {-webkit-trandform:translate(2px,4px);}
+   0% { -webkit-transform:translate(-20px,4px);}
+   50% {-webkit-trandform:translate(-21px,5px);}
+   100% {-webkit-trandform:translate(-22px,6px);}
 }
 
 /* This is the element that we apply the animation to. */
