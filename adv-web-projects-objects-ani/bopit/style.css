@@ -294,7 +294,7 @@ table {
 /*Define the keyframe*/
 @-webkit-keyframes twistit {
    0% { -webkit-transform:translate(0px,0px);}
-   50% {-webkit-trandform:translate(2px,2px);}
+   50% {-webkit-trandform:translate(1px,2px);}
    100% {-webkit-trandform:translate(2px,4px);}
 }
 
