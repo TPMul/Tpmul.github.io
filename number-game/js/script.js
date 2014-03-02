@@ -5,7 +5,7 @@
        
        if(isguessright) {
        alert('You Guessed Right, it was ' + num + " Congrats! Now let's try a new number.");
-       num = Math.round(Math.random()*6)}
+       num = Math.round(Math.random()*5)}
        
        else{ 
          alert('Try Again...');
