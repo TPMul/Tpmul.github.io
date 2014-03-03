@@ -156,6 +156,11 @@ div p {font-size: .9em;
 	   color:#606366;
 	   font-weight: normal;
 	   text-align: left;}
+
+#project-nav {font-size: 1em;
+			 text-decoration: none;
+			 color:#35cfb9;
+			 display:inline;}
 	   
 	   
 .works-page {padding-top:2%;}
