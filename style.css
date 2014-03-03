@@ -135,7 +135,8 @@ section a {text-decoration: none;
 #me {float:left;
  	 padding-right: 2%; }
 
-#about {float: left; width:35%;}
+#about {float: left; width:35%;
+		font-size: 1.1em;}
 
 footer p {display:none;
 	     padding-right: 5%; 
