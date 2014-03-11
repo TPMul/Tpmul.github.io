@@ -87,5 +87,9 @@ p {font-family: 'Raleway', sans-serif;
 
 .finger-descript {color:black;}
 
+#finger-container {padding-top:45%;
+background-color: white;
+opacity:.55;}
+
 #homepage {background-image: url('images/homeback.jpg');}
 #fingers {background-image:  url('images/fingersback.jpg');}
