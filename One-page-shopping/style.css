@@ -49,7 +49,8 @@ table {
 
 /* Add Styles Here */
 
-body {background: black;}
+body {background: black;
+	  width:100%;}
 
 h1 {padding-top:2%;
 	margin-left:auto;
