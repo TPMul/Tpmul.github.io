@@ -48,11 +48,13 @@ table {
 }
 
 /* Add Styles Here */
+
 body {background: black;}
 
 h1 {font-size: 4.718em;
 	color:white;
-	font-family: league-gothic, sans-serif;}
+	font-family: league-gothic, sans-serif;
+	text-transform: uppercase;}
 
 #mainnav a {text-decoration:none;
 			font-family: league-gothic, sans-serif;
