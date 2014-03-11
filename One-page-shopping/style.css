@@ -61,6 +61,14 @@ h1 {padding-top:2%;
 	text-transform: uppercase;
 	text-align: center;}
 
+#h1-l-finger {position: absolute;
+			  left: 35%;
+			  top:2.5%; }
+
+#h1-r-finger {position: absolute;
+			  left: 70%;
+			  top:2.5%; }			  
+
 #mainnav a {text-decoration:none;
 			font-family: league-gothic, sans-serif;
 			color:white;
