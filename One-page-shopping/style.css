@@ -75,7 +75,9 @@ h1 {padding-top:2%;
 			color:white;
 			font-size: 2em;
 			text-transform: uppercase;
-			text-align: center;}
+			text-align: center;
+			padding-top:6%;
+			padding-left:10%;}
 
 p {font-family: 'Raleway', sans-serif;
    font-size: 1.2em;
