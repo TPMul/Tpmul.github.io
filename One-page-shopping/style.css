@@ -135,7 +135,7 @@ h4 {font-size: .87em;
 		  left:0px;}
 
 #story {position: absolute;
-		top:2518px;
+		top:2200px;
 		left:0px;}
 
 #photos {position: absolute;
@@ -195,9 +195,10 @@ footer {position: absolute;
 
 #story h2 {color:black;}
 
-#story p {width:80%;
-		 margin-left: auto;
-		 margin-right: auto;}
+#story p {width:20%;
+		 margin-top: -18%;
+		 margin-left: 15%;
+		 font-size: 1em;}
 
 #story img {margin-left: 11.5%;
 			}		 									  		
