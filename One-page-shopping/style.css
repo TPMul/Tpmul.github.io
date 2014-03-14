@@ -50,7 +50,8 @@ table {
 /* Add Styles Here */
 
 body {background: black;
-	  width:100%;}
+	  width:100%;
+	  z-index: 0;}
 
 header {width: 100%;}
 
