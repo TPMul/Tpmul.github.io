@@ -117,8 +117,10 @@ h4 {font-size: .87em;
 
 .finger-descript {color:black;}
 
-#finger-container {padding-top:45%;
-				   }
+#finger-container {width:80%;
+				   margin-left: 15%;
+				   float:left;}
+
 #finger-overlay {background-color: white;
 				 opacity: .55;
 				 width: 100%;
@@ -134,6 +136,8 @@ h4 {font-size: .87em;
 
 #favorite-fingers {float:left;
 				   width:35%;}
+
+#finger-container p {width:80%;}
 
 #story-overlay {  height: 1012px;
 				  width:569px;
