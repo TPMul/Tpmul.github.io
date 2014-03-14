@@ -143,6 +143,12 @@ h4 {font-size: .87em;
 		top:3238px;
 		left:0px;}
 
+#photos h2 {margin-left: 15%; 
+		   float: left;}
+
+#photos p {float: left;
+		   margin-left: 23%;}
+
 footer {position: absolute;
 		top:4175px;
 		left:0px;
