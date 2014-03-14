@@ -52,6 +52,8 @@ table {
 body {background: black;
 	  width:100%;}
 
+header {width: 100%;}
+
 h1 {padding-top:1.5%;
 	margin-left:auto;
 	margin-right:auto;
@@ -70,6 +72,9 @@ h1 {padding-top:1.5%;
 			  left: 58%;
 			  top:4%; }			  
 
+#mainnav ul {margin-left: 5%;
+			 margin-top:-5%;}
+
 #mainnav a {text-decoration:none;
 			font-family: league-gothic, sans-serif;
 			color:white;
@@ -82,7 +87,8 @@ h1 {padding-top:1.5%;
 #mainnav a:hover {opacity: .6;} 			
 
 #mainnav li {float: left;
-			padding-right: 4%;}
+			padding-right: 4%;
+			margin-left:5%; }
 
 /*#homepage p {
 	padding-top: 10%;
