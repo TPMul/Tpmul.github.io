@@ -86,7 +86,7 @@ h1 {padding-top:2%;
 
 .right-links {float: right;}
 
-#homepage p {position:absolute;
+#homepage p {
 	padding-top: 10%;
 	width:43%;
 	text-align: center;
