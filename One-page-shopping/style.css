@@ -110,8 +110,10 @@ opacity:.55;}
 
 #homepage {background-image: url('images/homeback.jpg');
 		   background-size: 100%;
-		   background-position: 0	0; 
-		   background-repeat: no-repeat;}
+		   background-repeat: no-repeat;
+		   position: absolute;
+		   top:0px;
+		   left:0px;}
 #fingers {background-image:  url('images/fingersback.jpg');
 		   background-size: 100%;
 		   background-position: 0	1080px; 
