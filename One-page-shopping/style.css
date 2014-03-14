@@ -61,10 +61,10 @@ body {background-color: black;
 	  					 no-repeat,
 	  					 no-repeat;
 
-	  background-position: 0 0,
-	                       0 1078,
-	                       0 2518,
-	                       0 3238;}
+	  background-position: 0px 0px,
+	                       0px 1078px,
+	                       0px 2518px,
+	                       0px 3238px;}
 header {width: 100%;}
 
 h1 {padding-top:1.5%;
