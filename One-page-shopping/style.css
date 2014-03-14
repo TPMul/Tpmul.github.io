@@ -50,8 +50,7 @@ table {
 /* Add Styles Here */
 
 body {background: black;
-	  width:100%;
-	  z-index: 0;}
+	  width:100%;}
 
 header {width: 100%;}
 
@@ -64,6 +63,25 @@ h1 {padding-top:1.5%;
 	font-family: league-gothic, sans-serif;
 	text-transform: uppercase;
 	text-align: center;}
+
+p {font-family: 'Raleway', sans-serif;
+   font-size: 1.2em;
+   color:white;}
+
+ h2 {color: white;
+	font-family: league-gothic, sans-serif;
+	font-size: 2em;}
+
+footer a {text-decoration: none;
+		color:white;
+		opacity: .75;}
+
+h4 {font-size: .87em;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	float: right;
+	margin-right: 17%;}
+	
 
 #h1-l-finger {position: absolute;
 			  left: 37.7%;
@@ -97,14 +115,6 @@ h1 {padding-top:1.5%;
 	margin-left:auto;
 	margin-right:auto;}
 
-p {font-family: 'Raleway', sans-serif;
-   font-size: 1.2em;
-   color:white;}
-
- h2 {color: white;
-	font-family: league-gothic, sans-serif;
-	font-size: 2em;}  
-
 .finger-descript {color:black;}
 
 #finger-container {padding-top:45%;
@@ -136,16 +146,6 @@ p {font-family: 'Raleway', sans-serif;
 
 #story img {margin-left: 11.5%;
 			}		 									  		
-
-footer a {text-decoration: none;
-		color:white;
-		opacity: .75;}
-
-h4 {font-size: .87em;
-	color: white;
-	font-family: 'Raleway', sans-serif;
-	float: right;
-	margin-right: 17%;}
 
 #connect-icons {margin-left: 84%}		
 
