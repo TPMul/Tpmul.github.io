@@ -118,22 +118,35 @@ p {font-family: 'Raleway', sans-serif;
 			 font-family:league-gothic, sans-serif;
 			 width:20%; }
 
-#headerlink {background-image: url('images/homeback.jpg');
+#headerlink {position: absolute;
+		   	top:0px;
+		   	left:0px;
+		   	background-image: url('images/homeback.jpg');
 		   	background-position: 0 0;
-		   	position: absolute;
-		   top:0px;
-		   left:0px;}
+		   	background-repeat: no-repeat;}
 
-#fingers {background-image:  url('images/fingersback.jpg');
-		   background-position: 0px 1078px; 
-		   position: absolute;
+#fingers { position: absolute;
 		   top:1078px
-		   left:0;}
+		   left:0;
+		   background-image: url('images/fingersback.jpg');
+		   background-position: 0px 1078px;
+		   background-repeat: no-repeat; }
 
-#story {background-image:  url('images/storyback.jpg');
+#story {   position: absolute;
+		   top:2610px;
+		   left: 0px;
+		   background-image:  url('images/storyback.jpg');
 		   background-size: 100%;
 		   background-position: 0	2160px; 
 		   background-repeat: no-repeat;}
+
+#photos {   position: absolute;
+		   top:3240px;
+		   left: 0px;
+		   background-image:  url('images/storyback.jpg');
+		   background-size: 100%;
+		   background-position: 0	3240px; 
+		   background-repeat: no-repeat;}		   
 
 #story-overlay {  height: 1012px;
 				  width:569px;
@@ -152,11 +165,6 @@ p {font-family: 'Raleway', sans-serif;
 
 #story img {margin-left: 11.5%;
 			}		 									  		
-
-#photos {background-image: url('images/photosback.jpg');
-		   background-size: 100%;
-		   background-position: 0	3240px; 
-		   background-repeat: no-repeat;}}
 
 footer a {text-decoration: none;
 		color:white;
