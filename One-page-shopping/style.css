@@ -115,9 +115,7 @@ h4 {font-size: .87em;
 			padding-top:6%;
 			padding-left:10%;}
 
-#mainnav ul:nth-child(3) {margin-left:20%;}
-
-.right-links a {margin-left: 20%;}
+#right-links a {margin-left: 20%;}
 
 #mainnav a:hover {opacity: .6;} 			
 
