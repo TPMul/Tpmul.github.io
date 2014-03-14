@@ -121,7 +121,7 @@ p {font-family: 'Raleway', sans-serif;
 /*#headerlink {background-image: url('images/homeback.jpg');
 		   position: absolute;
 		   top:0px;
-		   left:0px;}
+		   left:0px;}*/
 
 #fingers {background-image:  url('images/fingersback.jpg');
 		   position: absolute;
@@ -131,7 +131,7 @@ p {font-family: 'Raleway', sans-serif;
 #story {background-image:  url('images/storyback.jpg');
 		   background-size: 100%;
 		   background-position: 0	2160px; 
-		   background-repeat: no-repeat;}*/
+		   background-repeat: no-repeat;}
 
 #story-container {height: 1012px;
 				  width:569px;
