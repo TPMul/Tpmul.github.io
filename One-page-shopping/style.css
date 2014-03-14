@@ -146,7 +146,11 @@ p {font-family: 'Raleway', sans-serif;
 		   background-image: url('images/photosback.jpg');
 		   background-size: 100%;
 		   background-position: 0	3240px; 
-		   background-repeat: no-repeat;}		   
+		   background-repeat: no-repeat;}
+
+footer {position: absolute;
+		top:4320px;
+		left: 0px;}
 
 #story-overlay {  height: 1012px;
 				  width:569px;
