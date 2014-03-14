@@ -52,7 +52,7 @@ table {
 body {background: black;
 	  width:100%;}
 
-header{position:absolute;}
+header{}
 
 h1 {padding-top:2%;
 	margin-left:auto;
@@ -81,7 +81,17 @@ h1 {padding-top:2%;
 			padding-top:6%;
 			padding-left:10%;}
 
-#mainnav li {float: left;}
+#mainnav li {float: left;
+			padding-right: 4%;}
+
+.right-links {float: right;}
+
+#homepage p {position:absolute;
+	padding-top: 10%;
+	width:43%;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;}
 
 p {font-family: 'Raleway', sans-serif;
    font-size: 1.2em;
@@ -119,7 +129,10 @@ footer a {text-decoration: none;
 		color:white;
 		opacity: .75;}
 
-#connect-icons {-webkit-transform:scale(.75);}
+#connect-icons {-webkit-transform:scale(.75);
+				display:inline;
+				clear:both;
+				float: right;}
 
 #copyright {opacity: .4;
 			font-size: .7em;}
