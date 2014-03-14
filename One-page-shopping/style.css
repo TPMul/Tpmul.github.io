@@ -81,7 +81,7 @@ h4 {font-size: .87em;
 	font-family: 'Raleway', sans-serif;
 	float: right;
 	margin-right: 17%;}
-	
+
 
 #h1-l-finger {position: absolute;
 			  left: 37.7%;
@@ -128,6 +128,12 @@ h4 {font-size: .87em;
 			 color:black;
 			 font-family:league-gothic, sans-serif;
 			 width:20%; }
+
+#featured-fingers {float:left;
+				   width:35%;}
+
+#favorite-fingers {float:left;
+				   width:35%;}
 
 #story-overlay {  height: 1012px;
 				  width:569px;
