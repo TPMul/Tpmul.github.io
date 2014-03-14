@@ -124,9 +124,9 @@ p {font-family: 'Raleway', sans-serif;
 		   left:0px;}
 
 #fingers {background-image:  url('images/fingersback.jpg');
-		   background-size: 100%;
-		   background-position: 0	1080px; 
-		   background-repeat: no-repeat;}}
+		   position: absolute;
+		   top:1080px
+		   left:0;}
 
 #story {background-image:  url('images/storyback.jpg');
 		   background-size: 100%;
