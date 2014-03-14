@@ -156,7 +156,8 @@ footer {position: absolute;
 				 opacity: .55;
 				 width: 100%;
 				 height: 350px;
-				 margin-top: 35%;}
+				 margin-top: 35%;
+				 z-index: 0;}
 
 #fingers h2 {margin-top: 10%;}
 
@@ -164,7 +165,9 @@ footer {position: absolute;
 			 color:black;
 			 font-family:league-gothic, sans-serif;
 			 width:50%;
-			 margin-top: 110%; }
+			 margin-top: 113%; }
+
+#fingers img {margin-top:-50%;}
 
 #fingers p {color:black;
 			font-size: 1em;}
