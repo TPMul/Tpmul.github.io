@@ -90,6 +90,8 @@ h1 {padding-top:1.5%;
 			padding-right: 4%;
 			margin-left:5%; }
 
+.right-links li{margin-left: 20%;}
+
 /*#homepage p {
 	padding-top: 10%;
 	width:43%;
@@ -108,7 +110,7 @@ p {font-family: 'Raleway', sans-serif;
 .finger-descript {color:black;}
 
 #finger-container {padding-top:45%;
-background-color: white;}
+				   background-color: white;}
 
 #fingers h3 {font-size:2.5em;
 			 color:black;
