@@ -142,7 +142,7 @@ footer a {text-decoration: none;
 		color:white;
 		opacity: .75;}
 
-#connect-icons {-webkit-transform:scale(.75);
+#connect-icons li {-webkit-transform:scale(.75);
 				display:inline;
 				clear:both;
 				float: right;}
