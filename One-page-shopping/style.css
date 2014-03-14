@@ -93,6 +93,10 @@ p {font-family: 'Raleway', sans-serif;
    font-size: 1.2em;
    color:white;}
 
+ h2 {color: white;
+	font-family: league-gothic, sans-serif;
+	font-size: 2em;}  
+
 .finger-descript {color:black;}
 
 #finger-container {padding-top:45%;
