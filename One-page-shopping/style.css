@@ -50,7 +50,10 @@ table {
 /* Add Styles Here */
 
 body {background: black;
-	  width:100%;}
+	  width:100%;
+	  background-image: url('images/homeback.jpg'), url ('images/fingersback.jpg'), url ('images/storyback.jpg'), url ('images/photosback.jpg');
+	  background-position: 0 0, 0 1078, 0 2158, 0 3238;
+	  background-repeat: no-repeat; }
 
 header {width: 100%;}
 
@@ -82,7 +85,7 @@ h4 {font-size: .87em;
 	float: right;
 	margin-right: 17%;}
 
-#homepage {background-image: url(images/homeback.jpg)}
+#homepage {background-image: url('images/homeback.jpg')}
 
 #h1-l-finger {position: absolute;
 			  left: 37.7%;
