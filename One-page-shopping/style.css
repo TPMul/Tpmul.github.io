@@ -118,17 +118,19 @@ opacity:.55;}
 		   background-size: 100%;
 		   background-position: 0	1080px; 
 		   background-repeat: no-repeat;}}
+
 #story {background-image:  url('images/storyback.jpg');
 		   background-size: 100%;
 		   background-position: 0	2160px; 
 		   background-repeat: no-repeat;}}
 
-#story p{width: 25%;
+#story p{width: 15%;
 		color:black;}
 
-#story-container {width:35%;
-background-color: white;
-opacity: .75;}		
+#story-container {width:30%;
+				  background-color: white;
+				  opacity: .75;
+				  padding-left: 20%;}		
 
 #photos {background-image: url('images/photosback.jpg');
 		   background-size: 100%;
