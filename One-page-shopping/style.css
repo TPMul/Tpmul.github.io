@@ -144,12 +144,14 @@ h4 {font-size: .87em;
 		left:0px;}
 
 #photos h2 {margin-left: 15%; 
-		   float: left;}
+		   float: left;
+		   text-transform: uppercase;}
 
 #photos p {float: left;
-		   margin-left: 23%;
-		   font-size: 1em;
-		   width:30%;}
+		   margin-left: 4%;
+           font-size: 1em;
+           width: 23%;
+           line-height: 1.16em;
 
 footer {position: absolute;
 		top:4175px;
