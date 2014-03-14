@@ -118,10 +118,10 @@ p {font-family: 'Raleway', sans-serif;
 			 font-family:league-gothic, sans-serif;
 			 width:20%; }
 
-/*#headerlink {background-image: url('images/homeback.jpg');
+#headerlink {background-image: url('images/homeback.jpg');
 		   position: absolute;
 		   top:0px;
-		   left:0px;}*/
+		   left:0px;}
 
 #fingers {background-image:  url('images/fingersback.jpg');
 		   position: absolute;
