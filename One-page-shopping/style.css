@@ -119,7 +119,8 @@ p {font-family: 'Raleway', sans-serif;
 			 width:20%; }
 
 #headerlink {background-image: url('images/homeback.jpg');
-		   position: absolute;
+		   	background-position: 0 0;
+		   	position: absolute;
 		   top:0px;
 		   left:0px;}
 
