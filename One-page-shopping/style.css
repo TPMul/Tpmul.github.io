@@ -144,12 +144,14 @@ h4 {font-size: .87em;
 		left:0px;}
 
 footer {position: absolute;
-		top:4318px;
+		top:4175px;
 		left:0px;
 		background-color: black;
 		width:100%;}
 
-footer a {font-family: 'Raleway', sans-serif;}		
+footer a {font-family: 'Raleway', sans-serif;}
+
+#contact {float:left;}		
 
 .finger-descript {color:black;}
 
@@ -194,7 +196,7 @@ footer a {font-family: 'Raleway', sans-serif;}
 				  background-color: white;
 				  opacity: .75;
 				  margin-left: 13%;
-			  	  margin-top: -48%;
+			  	  margin-top: -51%;
 				  z-index: -1;}
 
 #story-container div p 	{font-size: 1em;
