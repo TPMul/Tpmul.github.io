@@ -175,6 +175,10 @@ footer {position: absolute;
 #featured-fingers {float:left;
 				   width:35%;}
 
+#featured-fingers img {margin-top: -15%;}
+
+#favorite-fingers img {margin-top: -15%;}
+
 #favorite-fingers {float:left;
 				   width:35%;}
 
