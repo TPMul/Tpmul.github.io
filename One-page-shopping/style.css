@@ -49,10 +49,22 @@ table {
 
 /* Add Styles Here */
 
-body {background: black;
+body {background-color: black;
 	  width:100%;
-	  background: url('images/homeback.jpg') 0 0 no-repeat;}
+	  background: url('images/homeback.jpg') ,
+	   			  url('images/fingersback.jpg'), 
+	   			  url('images/storyback.jpg'), 
+	   			  url('images/photosback.jpg');
 
+	  background-repeat: no-repeat,
+	  					 no-repeat,
+	  					 no-repeat,
+	  					 no-repeat;
+
+	  background-position: 0 0,
+	                       0 1078,
+	                       0 2518,
+	                       0 3238;}
 header {width: 100%;}
 
 h1 {padding-top:1.5%;
@@ -82,8 +94,6 @@ h4 {font-size: .87em;
 	font-family: 'Raleway', sans-serif;
 	float: right;
 	margin-right: 17%;}
-
-#homepage {background-image: url('images/homeback.jpg')}
 
 #h1-l-finger {position: absolute;
 			  left: 37.7%;
@@ -116,12 +126,6 @@ h4 {font-size: .87em;
 	text-align: center;
 	margin-left:auto;
 	margin-right:auto;}
-
-#fingers {background:url('images/fingersback.jpg') 0 1078 no-repeat;}
-
-#story {background:url('images/storyback.jpg') 0 2158 no-repeat;}
-
-#photos {background: url('images/storyback.jpg') 0 2158 no-repeat;}
 
 .finger-descript {color:black;}
 
