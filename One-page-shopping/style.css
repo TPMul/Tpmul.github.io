@@ -144,12 +144,17 @@ footer a {text-decoration: none;
 
 h4 {font-size: .87em;
 	color: white;
-	font-family: 'Raleway', sans-serif;}
+	font-family: 'Raleway', sans-serif;
+	float: right;
+	margin-right: 17%;}
 
 #connect-icons {margin-left: 84%}		
 
 #connect-icons li {-webkit-transform:scale(.75);
 				float:left;}
 
-#copyright {opacity: .4;
-			font-size: .7em;}
+#copyright {float:right;
+			opacity: .4;
+			font-size: .7em;
+			margin-right: 3%;
+			margin-bottom: .5%;}
