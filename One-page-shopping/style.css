@@ -221,7 +221,9 @@ footer a {font-family: 'Raleway', sans-serif;}
 		 line-height: 1.2em;
 		 z-index: 1;}	 		
 
-#photo-grid {width:125%;}		 							  		
+#photo-grid {width:125%;}	
+
+#photo-grid img {margin:-1%; }	 							  		
 
 #connect-icons {margin-left: 84%}		
 
