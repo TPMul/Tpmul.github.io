@@ -155,12 +155,16 @@ footer {position: absolute;
 #finger-overlay {background-color: white;
 				 opacity: .55;
 				 width: 100%;
-				 height: 350px;}
+				 height: 350px;
+				 margin-top: 35%;}
 
 #fingers h3 {font-size:2.5em;
 			 color:black;
 			 font-family:league-gothic, sans-serif;
 			 width:20%; }
+
+#fingers p {color:black;
+			font-size: 1em;}
 
 #featured-fingers {float:left;
 				   width:35%;}
