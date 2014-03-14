@@ -195,7 +195,7 @@ footer {position: absolute;
 #story-container div p 	{font-size: 1em;
 						color:black;}
 
-#story-container:nth-child(2) {margin-left: 17%}						
+#first-photo {margin-left: 17%;}						
 
 #story h2 {color:black;
 		  margin-left:15%;}
