@@ -195,7 +195,7 @@ footer {position: absolute;
 #story-container div p 	{font-size: 1em;
 						color:black;}
 
-#story h2 {color:white;
+#story h2 {color:black;
 		  margin-left:15%;
 		  }
 
@@ -207,7 +207,7 @@ footer {position: absolute;
 		 line-height: 1.2em;
 		 z-index: 1;}
 
-#story img {margin-left: 11.5%;
+#story img {margin-left: 17%;
 			}		 									  		
 
 #connect-icons {margin-left: 84%}		
