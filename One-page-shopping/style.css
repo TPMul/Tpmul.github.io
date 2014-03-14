@@ -115,7 +115,7 @@ h4 {font-size: .87em;
 			padding-top:6%;
 			padding-left:10%;}
 
-#right-links {margin-left: 42%;}
+#right-links li {margin-left: 42%;}
 
 #mainnav a:hover {opacity: .6;
 				  } 			
