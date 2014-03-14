@@ -148,8 +148,8 @@ p {font-family: 'Raleway', sans-serif;
 		 margin-left: auto;
 		 margin-right: auto;}
 
-#story img {margin-left: auto;
-			margin-right: auto;}		 									  		
+#story:nth-child(3) {margin-left: 11.5%;
+			}		 									  		
 
 #photos {background-image: url('images/photosback.jpg');
 		   background-size: 100%;
