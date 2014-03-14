@@ -188,7 +188,9 @@ footer {position: absolute;
 				  width:569px;
 				  background-color: white;
 				  opacity: .75;
-				  margin-left: 13%;}
+				  margin-left: 13%;
+			  	  margin-top: -48%;
+				  z-index: -1;}
 
 #story-container div p 	{font-size: 1em;
 						color:black;}
@@ -200,7 +202,8 @@ footer {position: absolute;
 		 margin-left: 15%;
 		 font-size: 1em;
 		 color: black;
-		 line-height: 1.2em;}
+		 line-height: 1.2em;
+		 z-index: 1;}
 
 #story img {margin-left: 11.5%;
 			}		 									  		
