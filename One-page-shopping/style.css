@@ -98,13 +98,28 @@ opacity:.55;}
 			 font-family:league-gothic, sans-serif;
 			 width:20%; }
 
-#homepage {background-image: url('images/homeback.jpg');}
-#fingers {background-image:  url('images/fingersback.jpg');}
-#story {background-image:  url('images/storyback.jpg');}
-#photos {background-image: url('images/photosback.jpg');}
+#homepage {background-image: url('images/homeback.jpg');
+		   background-size: 100%;
+		   background-position: 0	0; 
+		   background-repeat: no-repeat;}
+#fingers {background-image:  url('images/fingersback.jpg');
+		   background-size: 100%;
+		   background-position: 0	1080; 
+		   background-repeat: no-repeat;}}
+#story {background-image:  url('images/storyback.jpg');
+		   background-size: 100%;
+		   background-position: 0	2160; 
+		   background-repeat: no-repeat;}}
+#photos {background-image: url('images/photosback.jpg');
+		   background-size: 100%;
+		   background-position: 0	3240; 
+		   background-repeat: no-repeat;}}
 
-footer {text-decoration: none;
-		color:white;}
+footer a {text-decoration: none;
+		color:white;
+		opacity: .75;}
+
+#connect-icons {-webkit-transform:scale(.75);}
 
 #copyright {opacity: .4;
-			font-size: .75em;}
+			font-size: .7em;}
