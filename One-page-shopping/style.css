@@ -113,9 +113,7 @@ h4 {font-size: .87em;
 			text-transform: uppercase;
 			text-align: center;
 			padding-top:6%;
-			padding-left:10%;}
-
-#mainnav ul:nth-child(3) {display:none;}			
+			padding-left:10%;}		
 
 #mainnav a:hover {opacity: .6;
 				  } 			
@@ -208,7 +206,7 @@ footer a {font-family: 'Raleway', sans-serif;}
 				  background-color: white;
 				  opacity: .75;
 				  margin-left: 13%;
-			  	  margin-top: -51%;
+			  	  margin-top: -51.8%;
 				  z-index: -1;}
 
 #story-container div p 	{font-size: 1em;
