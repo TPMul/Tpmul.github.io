@@ -114,15 +114,15 @@ opacity:.55;}
 		   background-repeat: no-repeat;}
 #fingers {background-image:  url('images/fingersback.jpg');
 		   background-size: 100%;
-		   background-position: 0	1080; 
+		   background-position: 0	1080px; 
 		   background-repeat: no-repeat;}}
 #story {background-image:  url('images/storyback.jpg');
 		   background-size: 100%;
-		   background-position: 0	2160; 
+		   background-position: 0	2160px; 
 		   background-repeat: no-repeat;}}
 #photos {background-image: url('images/photosback.jpg');
 		   background-size: 100%;
-		   background-position: 0	3240; 
+		   background-position: 0	3240px; 
 		   background-repeat: no-repeat;}}
 
 footer a {text-decoration: none;
