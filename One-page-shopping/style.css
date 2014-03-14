@@ -109,11 +109,11 @@ background-color: white;}
 			 font-family:league-gothic, sans-serif;
 			 width:20%; }
 
-#homepage {background-image: url('images/homeback.jpg');
+#headerlink {background-image: url('images/homeback.jpg');
 		   position: absolute;
 		   top:0px;
 		   left:0px;}
-		   
+
 #fingers {background-image:  url('images/fingersback.jpg');
 		   background-size: 100%;
 		   background-position: 0	1080px; 
