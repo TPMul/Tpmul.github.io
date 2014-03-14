@@ -124,12 +124,12 @@ opacity:.55;}
 		   background-position: 0	2160px; 
 		   background-repeat: no-repeat;}}
 
-#story p{}
-
-#story-container {width:30%;
+#story-container {height: 1012px;
+				  width:569px;
 				  background-color: white;
 				  opacity: .75;
-				  margin-left: 13%;}
+				  margin-left: 13%;
+				  margin-top:6.3%;}
 
 #story-container div p 	{font-size: 1em;
 						color:black;}			  		
