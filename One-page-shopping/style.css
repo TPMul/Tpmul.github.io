@@ -52,7 +52,7 @@ table {
 body {background: black;
 	  width:100%;}
 
-header{position:absolute;}
+header{}
 
 h1 {padding-top:2%;
 	margin-left:auto;
@@ -81,7 +81,17 @@ h1 {padding-top:2%;
 			padding-top:6%;
 			padding-left:10%;}
 
-#mainnav li {float: left;}
+#mainnav li {float: left;
+			padding-right: 4%;}
+
+.right-links {float: right;}
+
+#homepage p {position:absolute;
+	padding-top: 10%;
+	width:43%;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;}
 
 p {font-family: 'Raleway', sans-serif;
    font-size: 1.2em;
@@ -95,9 +105,34 @@ opacity:.55;}
 
 #fingers h3 {font-size:2.5em;
 			 color:black;
-			 font-family:league-gothic, sans-serif; }
+			 font-family:league-gothic, sans-serif;
+			 width:20%; }
 
-#homepage {background-image: url('images/homeback.jpg');}
-#fingers {background-image:  url('images/fingersback.jpg');}
-#story {background-image:  url('images/storyback.jpg');}
-#photos {background-image: url('images/photosback.jpg');}
+#homepage {background-image: url('images/homeback.jpg');
+		   background-size: 100%;
+		   background-position: 0	0; 
+		   background-repeat: no-repeat;}
+#fingers {background-image:  url('images/fingersback.jpg');
+		   background-size: 100%;
+		   background-position: 0	1080; 
+		   background-repeat: no-repeat;}}
+#story {background-image:  url('images/storyback.jpg');
+		   background-size: 100%;
+		   background-position: 0	2160; 
+		   background-repeat: no-repeat;}}
+#photos {background-image: url('images/photosback.jpg');
+		   background-size: 100%;
+		   background-position: 0	3240; 
+		   background-repeat: no-repeat;}}
+
+footer a {text-decoration: none;
+		color:white;
+		opacity: .75;}
+
+#connect-icons {-webkit-transform:scale(.75);
+				display:inline;
+				clear:both;
+				float: right;}
+
+#copyright {opacity: .4;
+			font-size: .7em;}
