@@ -95,9 +95,16 @@ opacity:.55;}
 
 #fingers h3 {font-size:2.5em;
 			 color:black;
-			 font-family:league-gothic, sans-serif; }
+			 font-family:league-gothic, sans-serif;
+			 width:20%; }
 
 #homepage {background-image: url('images/homeback.jpg');}
 #fingers {background-image:  url('images/fingersback.jpg');}
 #story {background-image:  url('images/storyback.jpg');}
 #photos {background-image: url('images/photosback.jpg');}
+
+footer {text-decoration: none;
+		color:white;}
+
+#copyright {opacity: .4;
+			font-size: .75em;}
