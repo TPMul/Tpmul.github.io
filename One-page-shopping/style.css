@@ -142,10 +142,11 @@ footer a {text-decoration: none;
 		color:white;
 		opacity: .75;}
 
+#connect-icons {margin-left: 76%}		
+
 #connect-icons li {-webkit-transform:scale(.75);
-				display:inline;
-				clear:both;
-				float: right;}
+				width:30%;
+				float:left;}
 
 #copyright {opacity: .4;
 			font-size: .7em;}
