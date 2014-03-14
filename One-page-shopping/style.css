@@ -135,7 +135,7 @@ p {font-family: 'Raleway', sans-serif;
 		   background-position: 0	2160px; 
 		   background-repeat: no-repeat;}
 
-#story-container {height: 1012px;
+#story-overlay {  height: 1012px;
 				  width:569px;
 				  background-color: white;
 				  opacity: .75;
@@ -143,6 +143,8 @@ p {font-family: 'Raleway', sans-serif;
 
 #story-container div p 	{font-size: 1em;
 						color:black;}
+
+#story h2 {color:black;}
 
 #story p {width:80%;
 		 margin-left: auto;
