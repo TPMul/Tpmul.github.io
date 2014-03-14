@@ -51,9 +51,10 @@ table {
 
 body {background: black;
 	  width:100%;
-	  background-image: url('images/homeback.jpg'), url ('images/fingersback.jpg'), url ('images/storyback.jpg'), url ('images/photosback.jpg');
-	  background-position: 0 0, 0 1078, 0 2158, 0 3238;
-	  background-repeat: no-repeat; }
+	  background: url('images/homeback.jpg') 0 0 no-repeat,
+	   			  url ('images/fingersback.jpg') 0 1078 no-repeat, 
+	   			  url ('images/storyback.jpg') 0 2158 no-repeat, 
+	   			  url ('images/photosback.jpg') 0 3238 no-repeat;}
 
 header {width: 100%;}
 
