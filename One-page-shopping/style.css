@@ -161,7 +161,8 @@ footer {position: absolute;
 #fingers h3 {font-size:2.5em;
 			 color:black;
 			 font-family:league-gothic, sans-serif;
-			 width:20%; }
+			 width:50%;
+			 margin-top: 125%; }
 
 #fingers p {color:black;
 			font-size: 1em;}
