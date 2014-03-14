@@ -169,7 +169,7 @@ footer {position: absolute;
 #fingers p {color:black;
 			font-size: 1em;}
 
-#featured-fingers {margin-top:float:left;
+#featured-fingers {float:left;
 				   width:35%;}
 
 #favorite-fingers {float:left;
