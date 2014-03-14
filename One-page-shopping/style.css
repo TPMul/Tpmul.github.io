@@ -158,6 +158,8 @@ footer {position: absolute;
 				 height: 350px;
 				 margin-top: 35%;}
 
+#fingers h2 {margin-top: 10%;}
+
 #fingers h3 {font-size:2.5em;
 			 color:black;
 			 font-family:league-gothic, sans-serif;
@@ -167,7 +169,7 @@ footer {position: absolute;
 #fingers p {color:black;
 			font-size: 1em;}
 
-#featured-fingers {float:left;
+#featured-fingers {margin-top:float:left;
 				   width:35%;}
 
 #favorite-fingers {float:left;
