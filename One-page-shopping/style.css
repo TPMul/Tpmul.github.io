@@ -152,7 +152,8 @@ footer {position: absolute;
 footer a {font-family: 'Raleway', sans-serif;}	
 
 #back-to-top {margin-right: auto;
-			  margin-left:auto;}	
+			  margin-left:auto;
+			  width: 5%; }	
 
 .finger-descript {color:black;}
 
