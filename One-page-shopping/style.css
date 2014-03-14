@@ -173,14 +173,12 @@ footer {position: absolute;
 			font-size: 1em;}
 
 #featured-fingers {float:left;
-				   width:35%;}
-
-#featured-fingers img {margin-top: -15%;}
-
-#favorite-fingers img {margin-top: -15%;}
+				   width:35%;
+			       margin-top: -15%;}
 
 #favorite-fingers {float:left;
-				   width:35%;}
+				   width:35%;
+				   margin-top: -15%;}
 
 #finger-container p {width:80%;}
 
