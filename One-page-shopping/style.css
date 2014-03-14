@@ -130,7 +130,15 @@ h4 {font-size: .87em;
 #fingers {position: absolute;
 		  top:1078px;
 		  left:0px;}
-		  
+
+#story {position: absolute;
+		top:2518px;
+		left:0px;}
+
+#photos {position: absolute;
+		top:3238px;
+		left:0px;}
+
 .finger-descript {color:black;}
 
 #finger-container {width:80%;
