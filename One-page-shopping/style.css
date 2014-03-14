@@ -51,10 +51,7 @@ table {
 
 body {background: black;
 	  width:100%;
-	  background: url('images/homeback.jpg') 0 0 no-repeat,
-	   			  url('images/fingersback.jpg') 0 1078 no-repeat, 
-	   			  url('images/storyback.jpg') 0 2158 no-repeat, 
-	   			  url('images/photosback.jpg') 0 3238 no-repeat;}
+	  background: url('images/homeback.jpg') 0 0 no-repeat;}
 
 header {width: 100%;}
 
@@ -119,6 +116,12 @@ h4 {font-size: .87em;
 	text-align: center;
 	margin-left:auto;
 	margin-right:auto;}
+
+#fingers {background:url('images/fingersback.jpg') 0 1078 no-repeat;}
+
+#story {background:url('images/storyback.jpg') 0 2158 no-repeat;}
+
+#photos {background: url('images/storyback.jpg') 0 2158 no-repeat;}
 
 .finger-descript {color:black;}
 
