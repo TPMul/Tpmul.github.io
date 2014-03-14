@@ -122,6 +122,14 @@ opacity:.55;}
 		   background-size: 100%;
 		   background-position: 0	2160px; 
 		   background-repeat: no-repeat;}}
+
+#story p{width: 25%;
+		color:black;}
+
+#story-container {width:35%;
+background-color: white;
+opacity: .75;}		
+
 #photos {background-image: url('images/photosback.jpg');
 		   background-size: 100%;
 		   background-position: 0	3240px; 
