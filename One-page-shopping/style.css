@@ -152,8 +152,7 @@ footer {position: absolute;
 footer a {font-family: 'Raleway', sans-serif;}	
 
 #back-to-top {margin-right: auto;
-			  margin-left:auto;
-			  width: 5%; }	
+			  margin-left:auto; }	
 
 .finger-descript {color:black;}
 
@@ -223,7 +222,7 @@ footer a {font-family: 'Raleway', sans-serif;}
 
 #photo-grid {width:125%;}	
 
-#photo-grid img {margin:-.1%; }	 							  		
+#photo-grid img {margin:-.1%;}	 							  		
 
 #connect-icons {margin-left: 84%}		
 
