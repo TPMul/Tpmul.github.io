@@ -124,13 +124,15 @@ opacity:.55;}
 		   background-position: 0	2160px; 
 		   background-repeat: no-repeat;}}
 
-#story p{width: 15%;
-		color:black;}
+#story p{}
 
 #story-container {width:30%;
 				  background-color: white;
 				  opacity: .75;
-				  padding-left: 20%;}		
+				  margin-left: 13%;}
+
+#story-container div p 	{font-size: 1em;
+						color:black;}			  		
 
 #photos {background-image: url('images/photosback.jpg');
 		   background-size: 100%;
