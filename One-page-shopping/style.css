@@ -142,10 +142,13 @@ footer a {text-decoration: none;
 		color:white;
 		opacity: .75;}
 
-#connect-icons {margin-left: 76%}		
+h4 {font-size: .87em;
+	color: white;
+	font-family: 'Raleway', sans-serif;}
+
+#connect-icons {margin-left: 84%}		
 
 #connect-icons li {-webkit-transform:scale(.75);
-				width:30%;
 				float:left;}
 
 #copyright {opacity: .4;
