@@ -49,7 +49,7 @@ table {
 
 /* Add Styles Here */
 
-body {background: black;
+body {
 	  width:100%;}
 
 h1 {padding-top:1.5%;
@@ -109,8 +109,6 @@ opacity:.55;}
 			 width:20%; }
 
 #homepage {background-image: url('images/homeback.jpg');
-		   background-size: 100%;
-		   background-repeat: no-repeat;
 		   position: absolute;
 		   top:0px;
 		   left:0px;}
