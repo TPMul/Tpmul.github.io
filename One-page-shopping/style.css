@@ -131,7 +131,7 @@ h4 {font-size: .87em;
 	padding-top:10%;}
 
 #fingers {position: absolute;
-		  top:1078px;
+		  top:1055px;
 		  left:0px;}
 
 #story {position: absolute;
@@ -167,7 +167,7 @@ footer {position: absolute;
 			 width:50%;
 			 margin-top: 113%; }
 
-#fingers img {margin-top:-50%;}
+#fingers img {margin-top:-500%;}
 
 #fingers p {color:black;
 			font-size: 1em;}
