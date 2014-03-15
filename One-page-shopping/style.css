@@ -199,7 +199,8 @@ footer a {font-family: 'Raleway', sans-serif;}
 
 #favorite-fingers {float:left;
 				   width:35%;
-				   margin-top: -15%;}
+				   margin-top: -15%;
+				   margin-left: 10%;}
 
 #finger-container p {width:80%;}
 
