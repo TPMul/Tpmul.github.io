@@ -188,7 +188,9 @@ footer a {font-family: 'Raleway', sans-serif;}
 			 color:black;
 			 font-family:league-gothic, sans-serif;
 			 width:50%;
-			 text-transform: uppercase; }
+			 text-transform: uppercase; 
+			 margin-top: 35%;
+			 padding-bottom: 2%;}
 
 #fingers p {color:black;
 			font-size: 1em;}
