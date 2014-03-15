@@ -151,7 +151,7 @@ h4 {font-size: .87em;
 #photos p {float: left;
 		   margin-left: 4%;
            font-size: 1em;
-           width: 23%;
+           width: 28%;
            line-height: 1.16em;
            padding-top: 1.25%;
            padding-bottom: 1.25%;}
@@ -180,15 +180,14 @@ footer a {font-family: 'Raleway', sans-serif;}
 				 margin-top: 35%;
 				 z-index: 0;}
 
-#featured-fingers h2 {margin-top: 80%;}
+#featured-fingers img {margin-top: 80%;}
 
-#favorite-fingers h2 {margin-top: 80%;}
+#favorite-fingers img {margin-top: 80%;}
 
 #fingers h3 {font-size:2.5em;
 			 color:black;
 			 font-family:league-gothic, sans-serif;
 			 width:50%;
-			 margin-top: 125%;
 			 text-transform: uppercase; }
 
 #fingers img {margin-top:-500%;}
@@ -221,7 +220,7 @@ footer a {font-family: 'Raleway', sans-serif;}
 			  margin-top: 3%;}
 
 #story img {margin-right: 1.5%;
-			}						
+			z-index: 2;}						
 
 #story h2 {color:black;
 		  margin-left:15%;
