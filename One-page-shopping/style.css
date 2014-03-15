@@ -131,7 +131,7 @@ h4 {font-size: .87em;
 	padding-top:10%;}
 
 #fingers {position: absolute;
-		  top:1055px;
+		  top:1400px;
 		  left:0px;}
 
 #story {position: absolute;
@@ -177,19 +177,19 @@ footer a {font-family: 'Raleway', sans-serif;}
 				 opacity: .55;
 				 width: 100%;
 				 height: 350px;
-				 margin-top: 35%;
+				 margin-top: 18%;
 				 z-index: 0;}
 
-#featured-fingers img {margin-top: 70%;}
+#featured-fingers img {margin-top: 20%;}
 
-#favorite-fingers img {margin-top: 70%; }
+#favorite-fingers img {margin-top: 20%; }
 
 #fingers h3 {font-size:2.5em;
 			 color:black;
 			 font-family:league-gothic, sans-serif;
 			 width:50%;
 			 text-transform: uppercase; 
-			 margin-top: 35%;
+			 margin-top: 25%;
 			 padding-bottom: 3%;}
 
 #fingers p {color:black;
