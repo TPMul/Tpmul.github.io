@@ -353,4 +353,8 @@ h3 {
 
 #detail img {float: left;}
 
-	  			
+#color-select div {width: 20px;
+					height: 20px;
+					border-radius: 50%;}
+
+#color-black {background-color: black;}	
