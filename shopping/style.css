@@ -356,9 +356,13 @@ h3 {
 
 #color-select div {width: 20px;
 					height: 20px;
-					border-radius: 50%;}
+					border-radius: 50%;
+					float: left;
+					margin-right: 6px;}
+#color-black {
+background-color: black;
+margin-left: 2px;}
 
-#color-black {background-color: black;}	
 #color-blue {background-color: #002aff;}
 #color-green {background-color:#15bd55;}
 #color-salmon {background-color:#f44a46;}
