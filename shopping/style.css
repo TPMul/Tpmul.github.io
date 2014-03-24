@@ -364,7 +364,8 @@ h3 {
 					height: 20px;
 					border-radius: 50%;
 					float: left;
-					margin-right: 6px;}
+					margin-right: 6px;
+					margin-bottom: 4px;}
 #color-black {
 background-color: black;
 margin-left: 2px;}
@@ -377,7 +378,8 @@ margin-left: 2px;}
 #color-purple {background-color: #6716ca;}
 #color-pink {background-color: #e060b4;}
 #color-white {background-color: white;
-			  border: .5px solid gray;})
+			  border: .5px solid gray;
+			  margin-left: 2px;})
 #color-blue2 {background-color: #52abd0;}
 #color-green2 {background-color:#6ee14f;}
 #color-salmon2 {background-color:#dc2a2a;}
