@@ -49,7 +49,7 @@ table {
 
 /* Add Styles Here */
 
-body #main-page {background-color: black;
+#main-page {background-color: black;
 	  		width:900px;
 	  		background: url('images/homeback.jpg'),
 	   			  		url('images/fingersback.jpg'), 
