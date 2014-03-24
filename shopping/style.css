@@ -292,8 +292,8 @@ h3 {
 
 #qty {
 	padding-bottom: 15px;
-	width: 480px;
-	padding-left: 20px;
+	width: 400px;
+	padding-right: 65px;
 	float: right;}
 
 #qty h4 {width: 465px;}
