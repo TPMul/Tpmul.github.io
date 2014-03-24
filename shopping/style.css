@@ -49,7 +49,7 @@ table {
 
 /* Add Styles Here */
 
-#main-page {background-color: black;
+body #main-page {background-color: black;
 	  		width:900px;
 	  		background: url('images/homeback.jpg'),
 	   			  		url('images/fingersback.jpg'), 
@@ -97,11 +97,11 @@ h4 {font-size: .87em;
 	margin-right: 17%;}
 
 #h1-l-finger {position: absolute;
-			  left: 37.7%;
+			  left: 260px;
 			  top:5%; }
 
 #h1-r-finger {position: absolute;
-			  left: 58%;
+			  left: 566px;
 			  top:5%; }			  
 
 #mainnav ul {margin-left: 5%;
@@ -122,6 +122,8 @@ h4 {font-size: .87em;
 #mainnav li {float: left;
 			padding-right: 4%;
 			margin-left:5%; }
+
+#right-link li {margin-left: 254px;}			
 
 #homepage p {
 	width:43%;
