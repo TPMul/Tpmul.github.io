@@ -291,13 +291,19 @@ h3 {
 					padding-right: 65px;}
 
 #qty {
-	  padding-bottom: 15px;
-	  width: 480px;
-	  padding-left: 20px;}
+	padding-bottom: 15px;
+	width: 480px;
+	padding-left: 20px;
+	float: right;}
+
+#qty h4 {width: 465px;}
+
 
 #qty p {float: left;
-		padding: 4px;
-		color: black;}
+		color: black;
+		margin-top: -3px;
+		padding-left: 10px;
+		padding-right: 10px;}
 
 .qty-buttons {border-radius: 100%;
 			  width:16px;
