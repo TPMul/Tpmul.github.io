@@ -376,3 +376,12 @@ margin-left: 2px;}
 #color-yellow {background-color: #f1e84e;}
 #color-purple {background-color: #6716ca;}
 #color-pink {background-color: #e060b4;}
+#color-white {background-color: white;
+			  border: .5px solid gray;})
+#color-blue2 {background-color: #52abd0;}
+#color-green2 {background-color:#6ee14f;}
+#color-salmon2 {background-color:#dc2a2a;}
+#color-oj2 {background-color:#fb691a;}
+#color-yellow2 {background-color: #fbc91a;}
+#color-purple2 {background-color: #b082c1;}
+#color-pink2 {background-color: #ff24d3;}
