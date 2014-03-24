@@ -355,6 +355,14 @@ h3 {
 
 #color-select div {width: 20px;
 					height: 20px;
-					border-radius: 50%;}
+					border-radius: 50%;
+					margin-top: 38px;}
 
 #color-black {background-color: black;}	
+#color-blue {background-color: #002aff;}
+#color-green {background-color:#15bd55;}
+#color-salmon {background-color:#f44a46;}
+#color-oj {background-color:#f0a31b;}
+#color-yellow {background-color: #f1e84e;}
+#color-purple {background-color: #6716ca;}
+#color-pink {background-color: #e060b4;}
