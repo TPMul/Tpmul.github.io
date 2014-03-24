@@ -49,12 +49,12 @@ table {
 
 /* Add Styles Here */
 
-body {background-color: black;
-	  width:100%;
-	  background: url('images/homeback.jpg'),
-	   			  url('images/fingersback.jpg'), 
-	   			  url('images/storyback.jpg'), 
-	   			  url('images/photosback.jpg');
+#main-page {background-color: black;
+	  		width:100%;
+	  		background: url('images/homeback.jpg'),
+	   			  		url('images/fingersback.jpg'), 
+	   			  		url('images/storyback.jpg'), 
+	   			  		url('images/photosback.jpg');
 
 	  background-repeat: no-repeat,
 	  					 no-repeat,
@@ -252,8 +252,49 @@ footer a {font-family: 'Raleway', sans-serif;}
 			margin-right: 3%;
 			margin-bottom: .5%;}
 
+body {width: 900px;
+	  background-image: url('images/fingersback.jpg');}			
+
+
+#detail {width: 900px;
+		height: 100%;
+         background-color: rgba(255,255,255,.5);}
+
+h4 {font-family: league-gothic , sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: black;
+	float:right;}
+
+.detail-paragraph {float: right;
+					font-size: 1em;
+					color: black;}	
+
+#qty p {float: right;
+		padding: 4px;
+		color: black;}
+
 .qty-buttons {border-radius: 100%;
 			  width:16px;
 			  height: 16px;
-			  float: left;
-			  background-color:#cccccc; }			
+			  float: right;
+			  background-color:#cccccc;
+			  text-align: center;}
+
+#sizes {clear:both;}
+
+.inch-boxes {text-align: center;
+			 width:90px;
+			 height: 42px;
+			 border:2px solid #ababab;
+			 float: right;
+			 font-family: 'Raleway', sans-serif;
+			 font-size: 1.1em;}
+
+#upload {float: right;}	
+
+h3 {         font-size:2.5em;
+			 color:black;
+			 font-family:league-gothic, sans-serif;
+			 width:50%;
+			 text-transform: uppercase;}		  			
