@@ -259,7 +259,7 @@ body {width: 900px;
 
 
 #detail {width: 850px;
-		 height: 700px;
+		 height: 635px;
 		 margin-top: 125px;
          background-color: rgba(255,255,255,.5);
     	 padding: 50px 25px 0px 25px;}
@@ -270,14 +270,17 @@ h3 {
 	font-family: league-gothic, sans-serif;
 	text-transform: uppercase;
 	float: right;
-	width: 465px;
 	padding-bottom: 30px;}	
 
-h4 {font-family: league-gothic , sans-serif;
+#detail h4 {
+	font-family: league-gothic , sans-serif;
 	font-weight: bold;
 	font-size: 1.3em;
 	color: black;
-	float:right;}
+	float: left;
+	padding-bottom: 12.5px;}
+
+#detail h3 {	width: 465px;}	
 
 .detail-paragraph {
 					float: right;
@@ -287,37 +290,57 @@ h4 {font-family: league-gothic , sans-serif;
 					padding-bottom: 30px;
 					padding-right: 65px;}
 
-#qty {float: right;
+#qty {
 	  padding-bottom: 15px;
-	  width: 4800px;
+	  width: 480px;
 	  padding-left: 20px;}
 
-#qty p {float: right;
+#qty p {float: left;
 		padding: 4px;
 		color: black;}
 
 .qty-buttons {border-radius: 100%;
 			  width:16px;
 			  height: 16px;
-			  float: right;
+			  float: left;
 			  background-color:#cccccc;
 			  text-align: center;}
 
-#sizes {clear:both;
-		padding-bottom: 15px;
-		width:500px;}
+#sizes {
+	clear: both;
+	padding-bottom: 15px;
+	width: 465px;
+	float: right;
+	padding-bottom:41px;}
 
-.inch-boxes {text-align: center;
-			 width:90px;
-			 height: 42px;
-			 border:2px solid #ababab;
-			 float: right;
-			 font-family: 'Raleway', sans-serif;
-			 font-size: 1.1em;
-			 font-weight: bold;}
+#sizes h4 {float: left;
+	width: 465px;}
 
-#upload {clear:both;
-	     float: right;}	
+#sizes a {text-decoration: none;
+		  color:black;}
+
+#sizes a:hover {background-color: rgba(255,255,255,0.3);}		  		
+
+.inch-boxes {
+	text-align: center;
+	width: 70px;
+	height: 25px;
+	margin-right: 5px;
+	border: 2px solid #ababab;
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;}
+
+#upload {
+	clear: both;
+	float: right;
+	width: 465px;
+	padding-bottom:60px;}
+
+
+#upload-button {float: left;
+				width: 465px;}	     
 
 #checkout { clear:both;
 			float: right;
@@ -325,7 +348,8 @@ h4 {font-family: league-gothic , sans-serif;
 
 #color-select {float: left;
 			  width:440px;
-			  padding-left: 21px;}
+			  padding-left: 21px;
+			  margin-top:-196px;}
 
 #detail img {float: left;}
 
