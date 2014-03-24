@@ -253,12 +253,25 @@ footer a {font-family: 'Raleway', sans-serif;}
 			margin-bottom: .5%;}
 
 body {width: 900px;
-	  background-image: url('images/fingersback.jpg');}			
+	  background-image: url('images/fingersback.jpg');
+	  margin-right: auto;
+	  margin-left: auto;}			
 
 
-#detail {width: 900px;
-		height: 100%;
-         background-color: rgba(255,255,255,.5);}
+#detail {width: 850px;
+		 height: 700px;
+		 margin-top: 125px;
+         background-color: rgba(255,255,255,.5);
+    	 padding: 50px 25px 0px 25px;}
+
+h3 {
+	font-size: 2.5em;
+	color: black;
+	font-family: league-gothic, sans-serif;
+	text-transform: uppercase;
+	float: right;
+	width: 465px;
+	padding-bottom: 30px;}	
 
 h4 {font-family: league-gothic , sans-serif;
 	font-weight: bold;
@@ -266,9 +279,18 @@ h4 {font-family: league-gothic , sans-serif;
 	color: black;
 	float:right;}
 
-.detail-paragraph {float: right;
+.detail-paragraph {
+					float: right;
 					font-size: 1em;
-					color: black;}	
+					color: black;
+					width: 400px;
+					padding-bottom: 30px;
+					padding-right: 65px;}
+
+#qty {float: right;
+	  padding-bottom: 15px;
+	  width: 4800px;
+	  padding-left: 20px;}
 
 #qty p {float: right;
 		padding: 4px;
@@ -281,7 +303,9 @@ h4 {font-family: league-gothic , sans-serif;
 			  background-color:#cccccc;
 			  text-align: center;}
 
-#sizes {clear:both;}
+#sizes {clear:both;
+		padding-bottom: 15px;
+		width:500px;}
 
 .inch-boxes {text-align: center;
 			 width:90px;
@@ -289,12 +313,20 @@ h4 {font-family: league-gothic , sans-serif;
 			 border:2px solid #ababab;
 			 float: right;
 			 font-family: 'Raleway', sans-serif;
-			 font-size: 1.1em;}
+			 font-size: 1.1em;
+			 font-weight: bold;}
 
-#upload {float: right;}	
+#upload {clear:both;
+	     float: right;}	
 
-h3 {         font-size:2.5em;
-			 color:black;
-			 font-family:league-gothic, sans-serif;
-			 width:50%;
-			 text-transform: uppercase;}		  			
+#checkout { clear:both;
+			float: right;
+		   width: 465px;}
+
+#color-select {float: left;
+			  width:440px;
+			  padding-left: 21px;}
+
+#detail img {float: left;}
+
+	  			
