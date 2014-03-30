@@ -249,6 +249,8 @@ background-color: #a7a7a7;
 text-align: center;
 }	
 
+#favorite-left p {margin-top:5px;}
+
 #favorite-right {
 border-radius: 100%;
 width: 20px;
@@ -261,6 +263,7 @@ background-color: #a7a7a7;
 text-align: center;
 }
 
+#favorite-right p {margin-top:5px;}
 
 #featured-left {
 	border-radius: 100%;
