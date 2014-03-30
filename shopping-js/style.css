@@ -128,9 +128,9 @@ h4 {font-size: .87em;
 #mainnav li {float: left;
 			margin-left:80px; }
 
-#first-link a {margin-left:0px;}
+#first-link li {margin-left:0px;}
 
-#right-link a {margin-left: 435px;}			
+#right-link li {margin-left: 435px;}			
 
 #homepage p {
 	width:43%;
