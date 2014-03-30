@@ -7,7 +7,6 @@ var Items = {
     description:  "Show your Vikings spirit this season with a new addition to our collection! Printed on both sides to get the maximum effect! This hand is available in all three of our heights, and one size fits all hands, small to Viking-sized!",
     sizes: [        "<h4 class='detail-headers'>Sizes</h4>"
                     "<a href='#'><div class='inch-boxes'>14\"</div></a>"
-                    "<a href='#'><div class='inch-boxes'>16\"</div></a>"
                     "<a href='#'><div class='inch-boxes'>18\"</div></a>"
                     "<a href='#'><div class='inch-boxes'>20\"</div></a>]",
     colors: [],
@@ -23,7 +22,7 @@ var Items = {
                     "<a href='#'><div class='inch-boxes'>16\"</div></a>"
                     "<a href='#'><div class='inch-boxes'>18\"</div></a>"
                     "<a href='#'><div class='inch-boxes'>20\"</div></a>]"],
-                    
+
     colors: [       "<h4>Choose your color</h4>",
                     "<div id='color-black'></div>",
                     '<div id="color-blue"></div>',
