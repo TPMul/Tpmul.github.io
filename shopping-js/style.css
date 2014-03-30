@@ -124,13 +124,13 @@ h4 {font-size: .87em;
 
 #mainnav a:hover {opacity: .6;
 				  } 			
+#first-link li {margin-left:-10px;}
+
+#right-link li {margin-left: 435px;}			
 
 #mainnav li {float: left;
 			margin-left:80px; }
 
-#first-link li {margin-left:-10px;}
-
-#right-link li {margin-left: 435px;}			
 
 #homepage p {
 	width:43%;
