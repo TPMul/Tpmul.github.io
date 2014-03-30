@@ -237,6 +237,31 @@ footer a {font-family: 'Raleway', sans-serif;}
 				 margin-top: -15px;
 				 margin-bottom: 30px;}
 
+#favorite-left {
+	float: left;
+	width: 230px;
+	padding-left: 31px;
+	margin-top: -50px;}	
+
+#favorite-right {
+	float: left;
+	width: 230px;
+	padding-left: 31px;
+	margin-top: -50px;}	
+
+
+#featured-left {
+	float: left;
+	width: 230px;
+	padding-left: 31px;
+	margin-top: -50px;}	
+
+#featured-right {
+	float: left;
+	width: 230px;
+	padding-left: 31px;
+	margin-top: -50px;}	
+
 
 #story-container div p 	{font-size: 1em;
 						color:black;}
