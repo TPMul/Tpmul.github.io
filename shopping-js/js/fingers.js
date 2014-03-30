@@ -7,7 +7,7 @@ var Items = {
     description:  "Show your Vikings spirit this season with a new addition to our collection! Printed on both sides to get the maximum effect! This hand is available in all three of our heights, and one size fits all hands, small to Viking-sized!",
     sizes: ['14"','16"','18"','20"'],
     colors: [],
-    upload: "no"},
+    upload: ""},
 
   customFinger: {
     title: "Fully Customizable Foam Finger",
@@ -31,7 +31,7 @@ var Items = {
                     '<div id="color-yellow2"></div>',
                     '<div id="color-purple2"></div>',
                     '<div id="color-pink2"></div>'],
-    upload: "yes"}
+    upload: "<input type='file' id='upload-button'>"}
 
 
 };
