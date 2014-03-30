@@ -8,7 +8,7 @@ var Items = {
     sizes: [        "<h4 class='detail-headers'>Sizes</h4>"
                     "<a href='#'><div class='inch-boxes'>14\"</div></a>"
                     "<a href='#'><div class='inch-boxes'>18\"</div></a>"
-                    "<a href='#'><div class='inch-boxes'>20\"</div></a>]",
+                    "<a href='#'><div class='inch-boxes'>20\"</div></a>"],
     colors: [],
     upload: ""},
 
@@ -17,7 +17,7 @@ var Items = {
     price: 14.99,
     image: "images/cust-finger.png",
     description:  "This foam hand is fully customizable, perfect for all teams, put your child's team logo on the back, or use it for corperate outings and sport events. No matter who you need to cheer for this hand will get them pumped up!",
-    sizes: ["<h4 class='detail-headers'>Sizes</h4>"
+    sizes: [        "<h4 class='detail-headers'>Sizes</h4>"
                     "<a href='#'><div class='inch-boxes'>14\"</div></a>"
                     "<a href='#'><div class='inch-boxes'>16\"</div></a>"
                     "<a href='#'><div class='inch-boxes'>18\"</div></a>"
