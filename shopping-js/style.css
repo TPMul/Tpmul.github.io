@@ -178,6 +178,10 @@ footer a {font-family: 'Raleway', sans-serif;}
 
 .finger-descript {color:black;}
 
+#finger {background-color: rgba(255,255,255,.85);
+				      width: 100%;
+				 	  height: 350px;}
+
 #finger-container {
 				 float:left;
 				 }
@@ -207,15 +211,7 @@ footer a {font-family: 'Raleway', sans-serif;}
 #favorite-fingers {float:left;
 				   width:35%;
 				   margin-top: -15%;
-				   margin-left: 10%;}
-
-#favorite-fingers li {background-color: rgba(255,255,255,.85);
-				      width: 100%;
-				 	  height: 350px;}
-
-#featured-fingers li {background-color: rgba(255,255,255,.85);
-				      width: 100%;
-				 	  height: 350px;}				   
+				   margin-left: 10%;}			   
 				   
 
 #finger-container p {width:80%;}
