@@ -227,10 +227,9 @@ footer a {font-family: 'Raleway', sans-serif;}
 				   margin-left: 7%;}			   
 				   
 
-#finger-container p {width:109%;
-					 margin-left: 6%;}
+#finger-container p {width:109%;}
 
-.finger-counter {margin-left:auto;
+.finger-counter p {margin-left:auto;
 				 margin-right: auto;
 				 text-align: center;
 				 font-family: 'Roboto', sans-serif;
