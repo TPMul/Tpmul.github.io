@@ -124,9 +124,9 @@ h4 {font-size: .87em;
 
 #mainnav a:hover {opacity: .6;
 				  } 			
-#first-link li {margin-left:-10px;}
+#first-link li {margin-left:-100px;}
 
-#right-link li {margin-left: 435px;}			
+#right-link li {margin-left: 330px;}			
 
 #mainnav li {float: left;
 			margin-left:80px; }
