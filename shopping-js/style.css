@@ -139,8 +139,8 @@ h4 {font-size: .87em;
 	margin-right:auto;
 	padding-top:10%;}
 
-#fingers {position: absolute;
-		  top:1400px;
+#fingers {position: relative;
+		  top:830px;
 		  left:0px;}
 
 #story {position: absolute;
@@ -178,7 +178,7 @@ footer a {font-family: 'Raleway', sans-serif;}
 
 .finger-descript {color:black;}
 
-#finger-container {width:80%;
+#finger-container {width:100%;
 				   margin-left: 15%;
 				   float:left;}
 
