@@ -31,7 +31,7 @@ var Items = {
                     '<div id="color-yellow2"></div>',
                     '<div id="color-purple2"></div>',
                     '<div id="color-pink2"></div>'],
-    upload:        "<h4 class='detail-headers'> Custom Logo</h4>" +
+    upload:        "<h4 class='detail-headers'> 'Custom Logo'</h4>" +
                     "<input type='file' id='upload-button'>"},
 
 
