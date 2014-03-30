@@ -1,4 +1,4 @@
-var Robots = {
+var Items = {
 
   viking: {
     title: "Minnesota Vikings #1 NFL Finger",
