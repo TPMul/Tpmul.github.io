@@ -125,12 +125,12 @@ h4 {font-size: .87em;
 #mainnav a:hover {opacity: .6;
 				  } 			
 
-#mainnav li {float: left;
+#mainnav {float: left;
 			margin-left:80px; }
 
-#first-link {margin-left:-10px;}
+#first-link li {margin-left:-10px;}
 
-#right-link {margin-left: 435px;}			
+#right-link li {margin-left: 435px;}			
 
 #homepage p {
 	width:43%;
