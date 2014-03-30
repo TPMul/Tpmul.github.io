@@ -9,7 +9,8 @@ var Items = {
                     "<a href='#'><div class='inch-boxes'>14\"</div></a>",
                     "<a href='#'><div class='inch-boxes'>18\"</div></a>",
                     "<a href='#'><div class='inch-boxes'>20\"</div></a>"],
-    colors: [],
+    colors: ["<h4>Available in only one color.</h4>",
+                    "<div id='color-vpurp'></div>"],
     upload: ""},
 
   customFinger: {
