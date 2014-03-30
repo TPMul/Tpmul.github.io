@@ -7,8 +7,8 @@ var Robots = {
     description:  "Dynamics autonomous screw operator arm Gort wires. Motion axis diode device machine flexibility program scale direct numerical control solar interlock resistor. Rotary kawasaki motor pulley hose bolt yaw.",
   },
 
-  frog: {
-    title: "Froginator 7500",
+  tucker: {
+    title: "Tuckinator 7500",
     price: 40.95,
     image: "images/froggy_bot.png",
     description:  "Axle register no disassemble reach repair hydraulic singularity end-effector current LaGrange multipliers save. Ball joint machine pneumatic DARPA Bishop boop solenoid simulation. Sprocket rotary driver resistor flexibility hydraulic gear hose worm gear operator kinematics."
