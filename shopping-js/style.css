@@ -178,9 +178,12 @@ footer a {font-family: 'Raleway', sans-serif;}
 
 .finger-descript {color:black;}
 
-#finger-container {width:100%;
-				   margin-left: 15%;
-				   float:left;}
+#finger-container {
+				 float:left;
+				 background-color: white;
+				 opacity: .55;
+				 width: 100%;
+				 height: 350px;}
 
 #finger-overlay {background-color: white;
 				 opacity: .55;
@@ -189,9 +192,11 @@ footer a {font-family: 'Raleway', sans-serif;}
 				 margin-top: 18%;
 				 z-index: 0;}
 
-#featured-fingers img {margin-top: 20%;}
+#featured-fingers img {margin-top: 20%;
+					   padding-bottom: 10%;}
 
-#favorite-fingers img {margin-top: 20%; }
+#favorite-fingers img {margin-top: 20%;
+					   padding-bottom:10%; }
 
 #fingers h3 {font-size:2.5em;
 			 color:black;
