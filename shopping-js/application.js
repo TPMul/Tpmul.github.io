@@ -1,36 +1,22 @@
-// Write our base functions
+ // Write our base functions
 $(document).ready(function() {
 $('.overlay').hide();
 $('.details').hide();
 });
 
-function showProduct(bot){
-  var robot=Robots [bot];
+function showProduct(finger){
+  //var finger=Items [finger];
   $(".overlay").show();
   $('.details').show();
-  $('#detail-title').text(robot.title);
-  $('#detail-image').attr('src', robot.image);
-  $('#detail-price').text("$" + robot.price);
-  $('#detail-description').text(robot.description);
+// $('#detail-title').text(finger.title);
+// $('#detail-image').attr('src', finger.image);
+//  $('#detail-price').text("$" + finger.price);
+//  $('#detail-description').text(finger.description);
 };
 
 function hideProduct() {
   $(".overlay").hide();
   $('.details').hide();
-};
-
-function addItems() {
-  var cart=0;
-  cart += 1
-   $('#cart').text(cart +" Item(s) in your cart.");
-
-};
-
-function updateCart() {
-var cart = { "frog" : 1, "cat" : 4, "bird" : 1 }
-
-var prices = robot.price;
-
 };
 
 // When the page loads, add in our event handlers
@@ -39,8 +25,8 @@ $(document).ready(function() {
 
 	$('.product').click(function() {
     
-    var bot=$(this).data("product-id");
-	showProduct(bot);
+    var finger=$(this).data("product-id");
+	showProduct(finger);
 });
 
    $('.overlay').click(function() {
