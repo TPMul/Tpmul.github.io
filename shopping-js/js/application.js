@@ -12,6 +12,7 @@ function showProduct(fing){
   $('#detail-image').attr('src', finger.image);
   $('#detail-price').text("$" + finger.price);
   $('#detail-description').text(finger.description);
+  $('#detail-color').html(finger.colors);
 };
 
 function hideProduct() {
