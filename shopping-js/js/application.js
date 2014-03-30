@@ -13,6 +13,7 @@ function showProduct(fing){
   $('#detail-price').text("$" + finger.price);
   $('#detail-description').text(finger.description);
   $('#detail-color').html(finger.colors);
+  $('#detail-upload').html(finger.upload);
 };
 
 function hideProduct() {
