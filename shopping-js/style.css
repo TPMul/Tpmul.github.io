@@ -260,7 +260,7 @@ footer a {font-family: 'Raleway', sans-serif;}
 /*Detail Page CSS*/		
 
 
-#overlay {width: 100%;
+.overlay {width: 100%;
 		 height: 635px;
 		 margin-top: 125px;
          background-color: rgba(255,255,255,.8);
@@ -274,7 +274,7 @@ h3 {
 	float: right;
 	padding-bottom: 30px;}	
 
-#detail h4 {
+.details h4 {
 	font-family: 'Raleway' , sans-serif;
 	font-weight: bold;
 	font-size: 1.3em;
@@ -282,7 +282,7 @@ h3 {
 	float: left;
 	padding-bottom: 12.5px;}
 
-#detail h3 {width: 465px;}	
+.details h3 {width: 465px;}	
 
 .detail-paragraph {
 					float: right;
@@ -360,7 +360,7 @@ h3 {
 	padding-left: 21px;
 	margin-top: -86px;}
 
-#detail img {float: left;}
+.details img {float: left;}
 
 #detail-color div {width: 20px;
 					height: 20px;
