@@ -249,7 +249,7 @@ background-color: #a7a7a7;
 text-align: center;
 }	
 
-#favorite-left p {margin-top:5px;}
+#favorite-left p {margin-top:2px;}
 
 #favorite-right {
 border-radius: 100%;
@@ -263,7 +263,7 @@ background-color: #a7a7a7;
 text-align: center;
 }
 
-#favorite-right p {margin-top:5px;}
+#favorite-right p {margin-top:2px;}
 
 #featured-left {
 			  border-radius: 100%;
