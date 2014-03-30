@@ -1,11 +1,11 @@
-var Fingers = {
+var Robots = {
 
   viking: {
     title: "Minnesota Vikings &#35;1 NFL Finger",
     price: 24.99,
     image: "images/viking-finger.png",
-    sizes: ['14"','16"','18"','20"']
     description:  "Show your Vikings spirit this season with a new addition to our collection! Printed on both sides to get the maximum effect! This hand is available in all three of our heights, and one size fits all hands, small to Viking-sized!",
+    sizes: ['14"','16"','18"','20"']
     color: "Vikings Purple"},
     upload: "no"
 
