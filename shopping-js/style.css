@@ -145,8 +145,9 @@ h4 {font-size: .87em;
 		  top:830px;
 		  left:0px;
 		  background-color: rgba(255,255,255,.85);
-		  width: 100%;
-		  height: 730px;}
+		  width: 220%;
+		  height: 730px;
+		  margin-left: -510px;}
 
 #story {position: absolute;
 		top:2200px;
@@ -202,24 +203,25 @@ footer a {font-family: 'Raleway', sans-serif;}
 			 margin-left: 30px;
 			 float: left;
 			 text-transform: uppercase; 
-			 margin-top: 15%;
+			 margin-top: 35%;
 			 padding-bottom: 3%;}
 
 #fingers p {color:black;
 			font-size: 1em;}
 
 #featured-fingers {float:left;
-				   width:35%;
-			       margin-top: -2%;
-			   	   margin-left: 13%;}
+				   width:20%;
+			       margin-top: -4%;
+			   	   margin-left: 23%;}
 
 #favorite-fingers {float:left;
-				   width:35%;
-				   margin-top: -2%;
-				   margin-left: 2%;}			   
+				   width:20%;
+				   margin-top: -4%;
+				   margin-left: 7%;}			   
 				   
 
-#finger-container p {width:80%;}
+#finger-container p {width:109%;
+					 margin-left: 12%;}
 
 #story-overlay {  height: 1012px;
 				  width:569px;
