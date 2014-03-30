@@ -265,7 +265,7 @@ text-align: center;
 
 #favorite-right p {margin-top:2px;}
 
-#featured-left {
+#feature-left {
 			  border-radius: 100%;
 			  width:20px;
 			  height:20px;
@@ -273,7 +273,7 @@ text-align: center;
 			  background-color:#a7a7a7;
 			  text-align: center;}	
 
-#featured-right {
+#feature-right {
 			  border-radius: 100%;
 			  width:20px;
 			  height: 20px;
