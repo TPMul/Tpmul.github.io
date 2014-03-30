@@ -276,9 +276,9 @@ footer a {font-family: 'Raleway', sans-serif;}
 .overlay {position: fixed;
 	width: 950px;
 	height: 635px;
-	margin-top: -390px;
+	margin-top: -1100px;
 	margin-left:-50px;
-	background-color: rgba(255,255,255,.87);
+	background-color: rgba(255,255,255,.98);
 	padding: 50px 25px 0px 25px;}
 
 .details h5 {font-family: 'Roboto', sans-serif;
