@@ -266,20 +266,30 @@ text-align: center;
 #favorite-right p {margin-top:2px;}
 
 #feature-left {
-			  border-radius: 100%;
-			  width:20px;
-			  height:20px;
-			  float: left;
-			  background-color:#a7a7a7;
-			  text-align: center;}	
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	margin-left: -354px;
+	margin-top: 441px;
+	float: left;
+	font-size: .75em;
+	background-color: #a7a7a7;
+	text-align: center;}
+
+	#feature-left p {margin-top:2px;}	
 
 #feature-right {
-			  border-radius: 100%;
-			  width:20px;
-			  height: 20px;
-			  float: right;
-			  background-color:#a7a7a7;
-			  text-align: center;}	
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	margin-top: 204px;
+	font-size: .75em;
+	float: right;
+	margin-right: -19px;
+	background-color: #a7a7a7;
+	text-align: center;}
+
+	#feature-right p {margin-top:2px;}	
 
 
 #story-container div p 	{font-size: 1em;
