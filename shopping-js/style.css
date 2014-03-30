@@ -233,7 +233,9 @@ footer a {font-family: 'Raleway', sans-serif;}
 				 font-family: 'Roboto', sans-serif;
 				 font-weight: bold;
 				 font-size: .75em;
-				 color:black;}
+				 color:black;
+				 margin-top: -15px;
+				 margin-bottom: 30px;}
 
 
 #story-container div p 	{font-size: 1em;
