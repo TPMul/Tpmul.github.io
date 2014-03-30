@@ -230,6 +230,12 @@ footer a {font-family: 'Raleway', sans-serif;}
 #finger-container p {width:109%;
 					 margin-left: 6%;}
 
+.finger-counter {margin-left:auto;
+				 margin-right: auto;
+				 text-align: center;
+				 font-family: 'Roboto', sans-serif;
+				 font-size: .75em;
+				 color:black;}
 
 
 #story-container div p 	{font-size: 1em;
