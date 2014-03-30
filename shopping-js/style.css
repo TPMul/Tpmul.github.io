@@ -244,6 +244,7 @@ height: 20px;
 margin-left: -350px;
 margin-top: 440px;
 float: left;
+font-size: .75em;
 background-color: #a7a7a7;
 text-align: center;
 }	
@@ -253,6 +254,7 @@ border-radius: 100%;
 width: 20px;
 height: 20px;
 margin-top: 204px;
+font-size: .75em;
 float: right;
 margin-right: -19px;
 background-color: #a7a7a7;
