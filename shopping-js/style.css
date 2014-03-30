@@ -49,6 +49,8 @@ table {
 
 /* Add Styles Here */
 
+body {width:900px;}
+
 #main-page {margin-right:auto;
 			margin-left:auto;
 			background-color: black;
@@ -67,12 +69,13 @@ table {
 	                       0px 1078px,
 	                       0px 2157px,
 	                       0px 3238px;}
-header {width: 900px;}
+header {width: 900px;
+		position: relative;}
 
-h1 {padding-top:1.5%;
+h1 {padding-top:20%;
 	margin-left:auto;
 	margin-right:auto;
-	width:20%;
+	width:270px;
 	font-size: 4.718em;
 	color:white;
 	font-family: league-gothic, sans-serif;
@@ -99,15 +102,16 @@ h4 {font-size: .87em;
 	margin-right: 17%;}
 
 #h1-l-finger {position: absolute;
-			  left: 260px;
-			  top:5%; }
+			  left: 250px;
+			  top:40px; }
 
 #h1-r-finger {position: absolute;
-			  left: 566px;
-			  top:5%; }			  
+			  left: 565.5px;
+			  top:40px; }			  
 
-#mainnav ul {margin-left: 5%;
-			 margin-top:-5%;}
+#mainnav {width: 1000px;}
+
+#mainnav ul {margin-top:-55px;}
 
 #mainnav a {text-decoration:none;
 			font-family: league-gothic, sans-serif;
@@ -122,10 +126,11 @@ h4 {font-size: .87em;
 				  } 			
 
 #mainnav li {float: left;
-			padding-right: 4%;
-			margin-left:5%; }
+			margin-left:80px; }
 
-#right-link li {margin-left: 254px;}			
+#first-link {margin-left:0px;}
+
+#right-link li {margin-left: 435px;}			
 
 #homepage p {
 	width:43%;
