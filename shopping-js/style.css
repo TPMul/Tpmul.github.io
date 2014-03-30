@@ -238,20 +238,26 @@ footer a {font-family: 'Raleway', sans-serif;}
 				 margin-bottom: 30px;}
 
 #favorite-left {
-	border-radius: 100%;
-			  width:16px;
-			  height: 16px;
-			  float: left;
-			  background-color:#a7a7a7;
-			  text-align: center;}	
+border-radius: 100%;
+width: 20px;
+height: 20px;
+margin-left: -350px;
+margin-top: 440px;
+float: left;
+background-color: #a7a7a7;
+text-align: center;
+}	
 
 #favorite-right {
-	border-radius: 100%;
-			  width:16px;
-			  height: 16px;
-			  float: left;
-			  background-color:#a7a7a7;
-			  text-align: center;}	
+border-radius: 100%;
+width: 20px;
+height: 20px;
+margin-top: -205px;
+float: right;
+margin-right: -15px;
+background-color: #a7a7a7;
+text-align: center;
+}	
 
 
 #featured-left {
