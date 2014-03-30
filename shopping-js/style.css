@@ -209,11 +209,11 @@ footer a {font-family: 'Raleway', sans-serif;}
 				   margin-top: -15%;
 				   margin-left: 10%;}
 
-#favorite-fingers ul {background-color: rgba(255,255,255,.85);
+#favorite-fingers li {background-color: rgba(255,255,255,.85);
 				      width: 100%;
 				 	  height: 350px;}
 
-#featured-fingers ul {background-color: rgba(255,255,255,.85);
+#featured-fingers li {background-color: rgba(255,255,255,.85);
 				      width: 100%;
 				 	  height: 350px;}				   
 				   
