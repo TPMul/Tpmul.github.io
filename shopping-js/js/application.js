@@ -19,9 +19,21 @@ function hideProduct() {
   $('.details').hide();
 };
 
+function addItems() {
+  var cart=0;
+  cart += 1
+   $('#cart').text(cart +" Item(s) in your cart.");
+
+};
+
+function updateCart() {
+var cart = { "frog" : 1, "cat" : 4, "bird" : 1 }
+
+var prices = robot.price;
+
+};
 
 // When the page loads, add in our event handlers
-
 $(document).ready(function() {
 
 
@@ -35,6 +47,10 @@ $(document).ready(function() {
   hideProduct();
 });
  
+  $("#add-to-cart").click(function () {
+    
+    addItems();
+  });
 
 
 });
