@@ -266,18 +266,18 @@ text-align: center;
 #favorite-right p {margin-top:5px;}
 
 #featured-left {
-	border-radius: 100%;
-			  width:16px;
-			  height: 16px;
+			  border-radius: 100%;
+			  width:20px;
+			  height:20px;
 			  float: left;
 			  background-color:#a7a7a7;
 			  text-align: center;}	
 
 #featured-right {
-	border-radius: 100%;
-			  width:16px;
-			  height: 16px;
-			  float: left;
+			  border-radius: 100%;
+			  width:20px;
+			  height: 20px;
+			  float: right;
 			  background-color:#a7a7a7;
 			  text-align: center;}	
 
