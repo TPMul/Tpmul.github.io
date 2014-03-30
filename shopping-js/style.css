@@ -85,6 +85,8 @@ h1 {padding-top:20px;
 p {font-family: 'Raleway', sans-serif;
    font-size: 1.2em;
    color:white;}
+ 
+#fingers h2 {margin-top: -40px;}
 
  h2 {color: white;
 	font-family: league-gothic, sans-serif;
@@ -141,7 +143,10 @@ h4 {font-size: .87em;
 
 #fingers {position: relative;
 		  top:830px;
-		  left:0px;}
+		  left:0px;
+		  background-color: rgba(255,255,255,.85);
+		  width: 100%;
+		  height: 730px;}
 
 #story {position: absolute;
 		top:2200px;
@@ -178,19 +183,16 @@ footer a {font-family: 'Raleway', sans-serif;}
 
 .finger-descript {color:black;}
 
-#fingers {background-color: rgba(255,255,255,.85);
-				      width: 100%;
-				 	  height: 350px;}
 
 #finger-container {
 				 float:left;
 				 }
 
 
-#featured-fingers img {margin-top: 20%;
+#featured-fingers img {margin-top: 7%;
 					   padding-bottom: 10%;}
 
-#favorite-fingers img {margin-top: 20%;
+#favorite-fingers img {margin-top: 7%;
 					   padding-bottom:10%; }
 
 #fingers h3 {font-size:2.5em;
@@ -200,7 +202,7 @@ footer a {font-family: 'Raleway', sans-serif;}
 			 margin-left: 30px;
 			 float: left;
 			 text-transform: uppercase; 
-			 margin-top: 25%;
+			 margin-top: 15%;
 			 padding-bottom: 3%;}
 
 #fingers p {color:black;
@@ -208,12 +210,13 @@ footer a {font-family: 'Raleway', sans-serif;}
 
 #featured-fingers {float:left;
 				   width:35%;
-			       margin-top: -15%;}
+			       margin-top: -2%;
+			   	   margin-left: 13%;}
 
 #favorite-fingers {float:left;
 				   width:35%;
-				   margin-top: -15%;
-				   margin-left: 10%;}			   
+				   margin-top: -2%;
+				   margin-left: 2%;}			   
 				   
 
 #finger-container p {width:80%;}
