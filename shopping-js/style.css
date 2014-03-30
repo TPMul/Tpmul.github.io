@@ -386,6 +386,8 @@ h3 {
 
 .details img {float: left;}
 
+#detail-color h4 {width:340px;}
+
 #detail-color div {width: 20px;
 					height: 20px;
 					border-radius: 50%;
