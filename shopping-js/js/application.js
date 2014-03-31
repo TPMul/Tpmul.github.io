@@ -50,7 +50,7 @@ $(document).ready(function() {
   showProduct(fing);
 });
 
-   $('.overlay').click(function() {
+   $('#close-button').click(function() {
   hideProduct();
 });
  
