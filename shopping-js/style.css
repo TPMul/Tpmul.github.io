@@ -319,7 +319,7 @@ footer {position: relative;
 		width:1920px;
 		height:145px;}
 
-
+footer h4 {margin-right:22.5% }
 
 footer a {font-family: 'Raleway', sans-serif;}	
 
@@ -342,7 +342,7 @@ footer h3 {font-size: 1.4em;
 #back-to-top {float:left;
 			  margin-left: 615px; }	 							  		
 
-#connect-icons {margin-left: 84%}		
+#connect-icons {margin-left: 74%}		
 
 #connect-icons li {-webkit-transform:scale(.75);
 				float:left;}
