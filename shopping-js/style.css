@@ -327,9 +327,13 @@ footer h3 {font-size: 1.4em;
 		   margin-left: 195px;
 		   float:left;
 		   color:white;
+		   margin-top: 15px;
 		   margin-right: 20px;}
 
-#back-to-top {margin-right: auto;
+.footer-bold {font-weight: bold;}
+
+#back-to-top {float:left;
+		      margin-right: auto;
 			  margin-left:auto; }	 							  		
 
 #connect-icons {margin-left: 84%}		
