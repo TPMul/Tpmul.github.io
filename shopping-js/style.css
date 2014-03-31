@@ -332,6 +332,12 @@ footer h3 {font-size: 1.4em;
 
 .footer-bold {font-weight: bold;}
 
+#back-to-top a {float: left;
+				margin-top: -35px;
+				margin-left: 70px;}
+
+#back-to-top h3 {margin-left: 550px;}
+
 #back-to-top {float:left;
 		      margin-right: auto;
 			  margin-left:auto; }	 							  		
