@@ -2,12 +2,14 @@
 $(document).ready(function() {
 $('.overlay').hide();
 $('.details').hide();
+$('#close-button').hide();
 });
 
 function showProduct(fing){
   var finger=Items [fing];
   $(".overlay").show();
   $('.details').show();
+  $('#close-button').show();
   $('#detail-title').text(finger.title);
   $('#detail-image').attr('src', finger.image);
   $('#detail-price').text("$" + finger.price);
@@ -20,6 +22,8 @@ function showProduct(fing){
 function hideProduct() {
   $(".overlay").hide();
   $('.details').hide();
+  $('#close-button').hide();
+
 };
 
 function addItems() {
