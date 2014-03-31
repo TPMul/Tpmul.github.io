@@ -329,7 +329,7 @@ footer h3 {font-size: 1.4em;
 		   float:left;
 		   color:white;
 		   margin-top: 15px;
-		   margin-right: 20px;}
+		   margin-right: 14px;}
 
 .footer-bold {font-weight: bold;}
 
@@ -349,7 +349,7 @@ footer h3 {font-size: 1.4em;
 				-webkit-transform:scale(.75);
 				float:left;}
 
-#contact-info p {margin-top: 20px;}
+/*#contact-info p {margin-top: 20px;}*/
 
 #copyright {float:right;
 			opacity: .4;
