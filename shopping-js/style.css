@@ -336,7 +336,8 @@ footer h3 {font-size: 1.4em;
 				margin-top: -35px;
 				margin-left: 70px;}
 
-#back-to-top h3 {margin-left: 550px;}
+#back-to-top h3 {text-transform: none;
+				 margin-left: 550px;}
 
 #back-to-top {float:left;
 		      margin-right: auto;
