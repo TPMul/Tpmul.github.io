@@ -305,10 +305,11 @@ text-align: center;
 		line-height: 1.25em;
 }	 		
 
-#photo-grid {width:125%;
+#photo-grid {width: 1900px;
 			clear:both;}	
 
-#photo-grid img {margin:-.1%;}
+#photo-grid img {margin: -17px;
+				 -webkit-transform: scale(0.885);}
 
 
 footer {position: relative;
