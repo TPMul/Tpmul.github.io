@@ -176,18 +176,7 @@ h4 {font-size: .87em;
            width: 28%;
            line-height: 1.16em;
            padding-top: 1.25%;
-           padding-bottom: 1.25%;}
-
-footer {position: absolute;
-		top:4175px;
-		left:0px;
-		background-color: black;
-		width:100%;}
-
-footer a {font-family: 'Raleway', sans-serif;}	
-
-#back-to-top {margin-right: auto;
-			  margin-left:auto; }	
+           padding-bottom: 1.25%;}	
 
 .finger-descript {color:black;}
 
@@ -319,7 +308,20 @@ text-align: center;
 #photo-grid {width:125%;
 			clear:both;}	
 
-#photo-grid img {margin:-.1%;}	 							  		
+#photo-grid img {margin:-.1%;}
+
+
+footer {position: relative;
+		top:2066px;
+		background-color: black;
+		width:100%;}
+
+footer a {font-family: 'Raleway', sans-serif;}	
+
+footer h3 {float:left;}
+
+#back-to-top {margin-right: auto;
+			  margin-left:auto; }	 							  		
 
 #connect-icons {margin-left: 84%}		
 
