@@ -54,7 +54,10 @@ $(document).ready(function() {
   hideProduct();
 });
  
-
+$('#fingers').click(function() {
+  hideProduct();
+});
+ 
 
   $("#add-to-cart").click(function () {
     
