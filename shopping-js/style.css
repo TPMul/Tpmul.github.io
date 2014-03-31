@@ -314,11 +314,18 @@ text-align: center;
 footer {position: relative;
 		top:2066px;
 		background-color: black;
-		width:100%;}
+		margin-left: -503px;
+		width:1920px;
+		height:135px;}
+
+
 
 footer a {font-family: 'Raleway', sans-serif;}	
 
-footer h3 {float:left;}
+footer h3 {font-size: 1.4em;
+		   margin-right: 15px;
+		   float:left;
+		   color:white;}
 
 #back-to-top {margin-right: auto;
 			  margin-left:auto; }	 							  		
