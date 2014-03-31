@@ -345,7 +345,8 @@ footer h3 {font-size: 1.4em;
 
 #connect-icons {margin-left: 74%}		
 
-#connect-icons li {-webkit-transform:scale(.75);
+#connect-icons li {margin-top:-20px;
+				-webkit-transform:scale(.75);
 				float:left;}
 
 #copyright {float:right;
