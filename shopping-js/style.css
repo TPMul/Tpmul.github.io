@@ -335,15 +335,12 @@ footer h3 {font-size: 1.4em;
 #back-to-top a {text-transform: none;
 				font-size: .7em;}
 
-#back-to-top h3 {margin-left: 615px;}
-
 #back-to-top img {float: left;
 				  margin-top: -25px;
 				  margin-left: 38px;}
 
 #back-to-top {float:left;
-		      margin-right: auto;
-			  margin-left:auto; }	 							  		
+			  margin-left: 615px; }	 							  		
 
 #connect-icons {margin-left: 84%}		
 
