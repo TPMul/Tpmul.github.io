@@ -331,6 +331,11 @@ footer h3 {font-size: 1.4em;
 		   margin-top: 15px;
 		   margin-right: 22px;}
 
+#contact-info {
+		padding-top: 15px;
+		margin-left: 196px;
+		font-size: .68em;}		   
+
 .footer-bold {font-weight: bold;}
 
 #back-to-top a {text-transform: none;
