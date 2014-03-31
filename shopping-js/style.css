@@ -319,7 +319,8 @@ footer {position: relative;
 		width:1920px;
 		height:145px;}
 
-footer h4 {margin-right:22.5% }
+footer h4 {margin-right:22.5%;
+		   margin-top: -40px; }
 
 footer a {font-family: 'Raleway', sans-serif;}	
 
