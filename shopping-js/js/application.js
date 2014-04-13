@@ -17,6 +17,10 @@ function showProduct(fing){
   $('#detail-sizes').html(finger.sizes);
   $('#detail-color').html(finger.colors);
   $('#detail-upload').html(finger.upload);
+
+  $("#checkout").on("click",function(){
+   var quantity = parseInt ($("#finger-qty").val() );
+   addItem(product, quantity)
 };
 
 function hideProduct() {
@@ -45,7 +49,7 @@ function updateCart (){
       total += itemPrice;
   }
 
-    $("#cart").text("Cart" + ": $" + total.toFixed(2));
+    $("#cart").text("Currently have $" + total.toFixed(2) + " in your cart.");
 
     return total;
   
