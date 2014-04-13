@@ -89,7 +89,9 @@ function checkOut() {
 
 // When the page loads, add in our event handlers
 $(document).ready(function() {
-
+ 
+  $("#cart").click(function(){
+    checkOut();
 
   $('.product').click(function() {
     
@@ -100,6 +102,5 @@ $(document).ready(function() {
    $('#close-button').click(function() {
   hideProduct();
 });
- 
 
 });
