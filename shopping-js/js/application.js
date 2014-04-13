@@ -3,7 +3,6 @@ $(document).ready(function() {
 $('.overlay').hide();
 $('.details').hide();
 $('#close-button').hide();
-
 });
 
 function showProduct(fing){
@@ -22,8 +21,8 @@ function showProduct(fing){
   $("#checkout").on("click",function(){
    var quantity = parseInt ($("#finger-qty").val());
    addItem(product, quantity)
-    }
-});
+    });
+};
 
 function hideProduct() {
   $(".overlay").hide();
