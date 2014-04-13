@@ -133,14 +133,21 @@ h4 {font-size: .87em;
 #mainnav li {float: left;
 			margin-left:80px; }
 
-#cart {font-family: 'roboto', sans-serif;
-	   color: white;
-	   font-size: 1.1em;
-	   padding-left: 762px;
-	   margin-top: -210px;}			
+#cart {
+font-family: 'roboto', sans-serif;
+color: white;
+font-size: 1.1em;
+float: right;
+margin-right: -1222px;
+width: 160px;
+margin-top: -210px;
+}		
 
-#qty h2 {color: black;
-		font-family: 'Raleway', sans-serif;}
+#qty h2 {font-family: 'Raleway' , sans-serif;
+font-weight: bold;
+font-size: 1.3em;
+color: black;
+text-transform: none;}
 
 #homepage p {
 	width:43%;
