@@ -3,6 +3,7 @@ $(document).ready(function() {
 $('.overlay').hide();
 $('.details').hide();
 $('#close-button').hide();
+
 });
 
 function showProduct(fing){
@@ -19,9 +20,10 @@ function showProduct(fing){
   $('#detail-upload').html(finger.upload);
 
   $("#checkout").on("click",function(){
-   var quantity = parseInt ($("#finger-qty").val() );
-   addItem(product, quantity);
-};
+   var quantity = parseInt ($("#finger-qty").val());
+   addItem(product, quantity)
+    };
+}
 
 function hideProduct() {
   $(".overlay").hide();
@@ -39,9 +41,9 @@ function addItem (product, quantity){
 }
 
 function updateCart (){
-  var total = 0;
-
-    for(var product in cart) {
+    
+    var total = 0;
+for(var product in cart) {
       var quantity = cart[product];
       var finger = Items[fing];
       var price = finger.price;
