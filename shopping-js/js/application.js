@@ -51,7 +51,7 @@ for(var fing in cart) {
       total += itemPrice;
   }
 
-    $("#cart").text("Currently cart total is $" + total.toFixed(2) + " , click to checkout.");
+    $("#cart").text("Current cart total is $" + total.toFixed(2) + " , click to checkout.");
 
     return total;
   
