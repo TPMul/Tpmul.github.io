@@ -133,9 +133,11 @@ h4 {font-size: .87em;
 #mainnav li {float: left;
 			margin-left:80px; }
 
-#cart {font: 'Roboto', sans-serif;
+#cart {font-family: 'roboto', sans-serif;
 	   color: white;
-	   font-size: 1.1em;}			
+	   font-size: 1.1em;
+	   padding-left: 762px;
+	   margin-top: -210px;}			
 
 
 #homepage p {
