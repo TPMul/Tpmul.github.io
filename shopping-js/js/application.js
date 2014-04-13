@@ -26,19 +26,60 @@ function hideProduct() {
 
 };
 
-function addItems() {
-  var cart=0;
-  cart += 1
-   $('#cart').text(cart +" Item(s) in your cart.");
+var cart = { };
 
-};
+function addItem (product, quantity){
+  if(!cart[product]) { cart [product] = 0;}
+  cart [product] += quantity;
+  updateCart()
+}
 
-function updateCart() {
-var cart = { "frog" : 1, "cat" : 4, "bird" : 1 }
+function updateCart (){
+  var total = 0;
 
-var prices = finger.price;
+    for(var product in cart) {
+      var quantity = cart[product];
+      var finger = Items[fing];
+      var price = finger.price;
+      var itemPrice = finger.price*quantity;
+      total += itemPrice;
+  }
 
-};
+    $("#cart").text("Cart" + ": $" + total.toFixed(2));
+
+    return total;
+  
+}
+
+function checkOut() {
+  var stripeKey = 'pk_test_V0SJ6QOh3rXO9s6Ysw0eHzzE';
+
+  var description = $("#cart").text();
+  var amount = updateCart() * 100;
+
+  var handler = StripeCheckout.configure({
+    key: stripeKey,
+    image: 'images/checkout-icon.png',
+    token: function(token, args) {
+      $.post("/buy", {
+        token: token.id,
+        amount: amount,
+        description: description
+      },function(data) {
+        alert(data.message);
+      });
+    }
+  });
+
+
+  handler.open({
+    name: 'Foam Finger Fanatics',
+    description: description,
+    amount: amount
+  });
+
+}
+
 
 // When the page loads, add in our event handlers
 $(document).ready(function() {
