@@ -23,7 +23,7 @@ function showProduct(fing){
    var quantity = parseInt ($("#finger-qty").val());
    addItem(product, quantity)
     }
-};
+});
 
 function hideProduct() {
   $(".overlay").hide();
