@@ -139,7 +139,8 @@ h4 {font-size: .87em;
 	   padding-left: 762px;
 	   margin-top: -210px;}			
 
-#qty h2 {color: black;}
+#qty h2 {color: black;
+		font-family: 'Raleway', sans-serif;}
 
 #homepage p {
 	width:43%;
