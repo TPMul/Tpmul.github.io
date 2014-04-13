@@ -93,7 +93,11 @@ $(document).ready(function() {
   $("#cart").click(function(){
     checkOut();
   });
-
+  
+  $("#cart-icon").click(function(){
+    checkOut();
+  });
+  
   $('.product').click(function() {
     
     var fing=$(this).data("product-id");

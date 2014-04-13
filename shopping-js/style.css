@@ -156,6 +156,12 @@ text-transform: none;}
 	margin-right:auto;
 	padding-top:10%;}
 
+#cart-icon {width: 38px;
+			float: right;
+			margin-right: -1050px;
+			margin-top: -205px;
+			}
+
 #fingers {position: relative;
 		  top:830px;
 		  left:0px;
