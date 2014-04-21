@@ -54,7 +54,8 @@ h1 {font-family: helvetica, sans-serif;
 	font-size: 1.5em;
 	font-weight: bold;
 	padding-top: 20px;
-	padding-bottom: 8px;}
+	padding-bottom: 8px;
+	width:515px;}
 
 
 p{font-family: helvetica, sans-serif;
@@ -67,7 +68,7 @@ h2 {font-family: helvetica, sans-serif;
 	font-size: 1.3em;
 	padding-bottom: 8px;}
 
-ul {margin-left: 18px;}
 
-li {font-family: helvetica, sans-serif;
+li {margin-left: 18px;
+	font-family: helvetica, sans-serif;
 	font-size: .95em;}
