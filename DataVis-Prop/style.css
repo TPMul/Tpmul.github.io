@@ -60,7 +60,8 @@ h1 {font-family: helvetica, sans-serif;
 p{font-family: helvetica, sans-serif;
   font-size: .95em;
   padding-bottom: 40px;
-  width:500px;}
+  width:500px;
+  line-height: 1.2em;}
 
 h2 {font-family: helvetica, sans-serif;
 	font-size: 1.3em;
