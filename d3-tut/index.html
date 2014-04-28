@@ -3,11 +3,22 @@
     <head>
         <meta charset="utf-8">
         <title>D3 Test</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
         <script type="text/javascript" src="d3/d3.v3.js"></script>
     </head>
     <body>    
         <script type="text/javascript">
-            d3.select("body").append("p").text("New paragraph!");
+            var dataset = [ 5, 10, 15, 20, 25 ];
+
+            d3.select("body").selectAll("div")
+            .data(dataset)
+            .enter()
+            .append("div")
+            .attr("class", "bar");
+            
+            .style("height", function(d) {
+            return d + "px";
+            });
         </script>
     </body>
 </html>     
