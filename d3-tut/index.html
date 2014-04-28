@@ -11,21 +11,29 @@
         
             var dataset = [   ];
             
-            for (var i = 0; i < 30; i++) {
+            for (var i = 0; i < 20; i++) {
                 var ranNumber = Math.round(Math.random() * 30);
                 dataset.push(ranNumber);
             }
 
-            d3.select("body").selectAll("div")
-                .data(dataset)
-                .enter()
-                .append("div")
-                .attr("class", "bar")
-                .style("height", function(d) {
-                    var barHeight = d *5
-                    return barHeight + "px";
-                });
- 
+            var svgW = 500;
+            var svgH = 100;
+
+            var svg = d3.select("body")
+                    .append("svg")
+                    .attr("width", svgW)
+                    .attr("height", svgH);
+
+            svg.selectAll("rect")
+            .data(dataset)
+            .enter()
+            .append("rect")
+            .attr("x", function(d, i) {
+                  return i * 21; 
+            .attr("y", 0)
+            .attr("width", 20)
+            .attr("height", 100);
+
         </script>
         <p>SVG's</p>
 <svg width="500" height="50">
