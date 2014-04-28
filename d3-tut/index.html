@@ -29,9 +29,9 @@
                .data(dataset)
                .enter()
                .append("rect")
-               .attr('fill', function(d) {
-                return "rgb(0,0"+(d * 10)+")";
-                })
+               .attr("fill", function(d) {
+                    return "rgb(0, 0, " + (d * 10) + ")";
+               })
                .attr("x", function(d, i) {
                     return i * (svgW / dataset.length);
                })
