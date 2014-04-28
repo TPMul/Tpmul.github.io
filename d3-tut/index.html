@@ -9,8 +9,12 @@
     <body>    
         <script type="text/javascript">
         
-            var dataset = [ 5, 10, 13, 19, 21, 25, 22, 18, 15, 13,
-                11, 12, 15, 20, 18, 17, 16, 18, 23, 25 ];
+            var dataset = [   ];
+            
+            for (var i = 0; i < 30; i++) {
+                var ranNumber = Math.round(Math.random() * 30);
+                dataset.push(ranNumber);
+            }
 
             var svgW = 500;
             var svgH = 100;
@@ -25,7 +29,7 @@
                .enter()
                .append("rect")
                .attr("x", function(d, i) {
-                    return i * (w / dataset.length);
+                    return i * (svgW / dataset.length);
                })
                .attr("y", 0)
                .attr("width", 20)
