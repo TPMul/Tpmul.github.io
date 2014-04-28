@@ -11,7 +11,7 @@
         
             var dataset = [   ];
             
-            for (var i = 0; i < 20; i++) {
+            for (var i = 0; i < 30; i++) {
                 var ranNumber = Math.round(Math.random() * 30);
                 dataset.push(ranNumber);
             }
@@ -30,7 +30,7 @@
             .enter()
             .append("rect")
             .attr("x", function(d, i) {
-            return i * 21; })
+            return i * (w / dataset.length);})
             .attr("y", 0)
             .attr("width", 20)
             .attr("height", 100);
