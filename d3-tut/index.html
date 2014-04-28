@@ -11,7 +11,7 @@
         
             var dataset = [   ];
             
-            for (var i = 0; i < 30; i++) {
+            for (var i = 0; i < 20; i++) {
                 var ranNumber = Math.round(Math.random() * 30);
                 dataset.push(ranNumber);
             }
@@ -32,9 +32,14 @@
                .attr("x", function(d, i) {
                     return i * (svgW / dataset.length);
                })
-               .attr("y", 0)
+               .attr("y", function(d) {
+                return h - d*4;  
+                })
                .attr("width", svgW / dataset.length - barPadding)
-               .attr("height", 100);
+               .attr("height", function(d) {
+                return d;
+                });
+                .attr('fill', "green");
 
         </script>
         <p>SVG's</p>
