@@ -16,8 +16,8 @@
                 dataset.push(ranNumber);
             }
 
-            var svgW = 500;
-            var svgH = 100;
+            var svgW = 1000;
+            var svgH = 300;
             var barPadding= 1;
 
             var svg = d3.select("body")
@@ -30,7 +30,7 @@
                .enter()
                .append("rect")
                .attr('fill', function(d) {
-                return "rgb(0" + (d * 10) + "0)";
+                return "rgb(0,0"+(d * 10)+")";
                 })
                .attr("x", function(d, i) {
                     return i * (svgW / dataset.length);
