@@ -29,6 +29,7 @@
                .data(dataset)
                .enter()
                .append("rect")
+               .attr('fill', "green");
                .attr("x", function(d, i) {
                     return i * (svgW / dataset.length);
                })
@@ -39,7 +40,6 @@
                .attr("height", function(d) {
                 return d;
                 });
-                .attr('fill', "green");
 
         </script>
         <p>SVG's</p>
