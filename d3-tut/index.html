@@ -20,21 +20,20 @@
             var svgH = 100;
 
             var svg = d3.select("body")
-                    .append("svg")
-                    .attr("width", svgW)
-                    .attr("height", svgH);
+                        .append("svg")
+                        .attr("width", svgW)
+                        .attr("height", svgH);
 
-           
             svg.selectAll("rect")
-            .data(dataset)
-            .enter()
-            .append("rect")
-            .attr("x", function(d, i) {
-            return i * (w / dataset.length);
-        })
-            .attr("y", 0)
-            .attr("width", 20)
-            .attr("height", 100);
+               .data(dataset)
+               .enter()
+               .append("rect")
+               .attr("x", function(d, i) {
+                    return i * (w / dataset.length);
+               })
+               .attr("y", 0)
+               .attr("width", 20)
+               .attr("height", 100);
 
         </script>
         <p>SVG's</p>
