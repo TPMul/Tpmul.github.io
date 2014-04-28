@@ -29,7 +29,7 @@
                .data(dataset)
                .enter()
                .append("rect")
-               .attr('fill', "green");
+               .attr('fill', "green")
                .attr("x", function(d, i) {
                     return i * (svgW / dataset.length);
                })
