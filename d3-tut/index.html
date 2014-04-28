@@ -24,12 +24,12 @@
                     .attr("width", svgW)
                     .attr("height", svgH);
 
+           
             svg.selectAll("rect")
             .data(dataset)
             .enter()
             .append("rect")
-            .attr("x", function(d, i) {
-                  return i * 21; 
+            .attr("x",0)
             .attr("y", 0)
             .attr("width", 20)
             .attr("height", 100);
