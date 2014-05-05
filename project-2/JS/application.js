@@ -76,7 +76,7 @@ $('.player').click(function() {
              .on("mouseover", function(d) {div.transition()
               				   duration(200)
               				   style("opacity", 1)
-              				   div .html(d_daftees_count + "Draftees")
+              				   div .html(d_draftees_count + "Draftees")
               				   .style("left", (d3.event.pageX) + "px")
               				   .style("top", (d3.event.pageY-100) + "px") })  
               				   
