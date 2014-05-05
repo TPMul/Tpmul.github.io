@@ -38,8 +38,8 @@
                 "rgba(0,0,0,0.10)"
                 })
       
-              .attr(function(d) {
-                return Math.sqrt(svgH - d[draftees_count]))
+              .attr("r", function(d) {
+                return Math.sqrt(svgH - d.draftees_count)
 
               .attr("transform", function(d) {
                 return "translate(" + projection([d.longitude,d.latitude]) + ")";
