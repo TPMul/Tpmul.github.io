@@ -112,5 +112,5 @@ h1 {font-family: 'Pacifico', cursive;
   padding-left:20px;
 }
 
-.players:hover {background-color:red;}
+circle .players:hover {background-color:red;}
 
