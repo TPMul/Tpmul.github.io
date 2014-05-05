@@ -44,7 +44,9 @@ $('.product').click(function() {
 
             var svgW = 979;
             var svgH = 979;
-            
+	    
+	    var height = 979;
+	    var width = 979;
 
            var projection = d3.geo.equirectangular()
                .scale((width + 1) / 2 / Math.PI)
