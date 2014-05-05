@@ -10,7 +10,7 @@
                 .attr("height", svgH);
                 
             var div = d3.select("body").append("div")
-            	.attr("class","tooltip")
+            	.attr("class","overlay")
             	.style("opacity", 0);
 
             var svgW = 979;
