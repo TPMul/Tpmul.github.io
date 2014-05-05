@@ -12,7 +12,16 @@
          function renderGraph(ourData) {
         console.log(ourData);
 
+            var svgW = 1000;
+            var svgH = 600;
 
+            var svg = d3.select("body")
+                        .append("svg")
+                        .attr("width", svgW)
+                        .attr("height", svgH);
+
+
+           
             }
         </script>
         
