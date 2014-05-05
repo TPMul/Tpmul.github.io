@@ -65,8 +65,6 @@ $('.product').click(function() {
               .attr("class", "players")
               .attr("data", function(d) { return d.username})
               .attr("r", 2.5);
-              });
-              				      
               .attr("transform", function(d) {
                 return "translate(" + projection([d.longitude,d.latitude]) + ")";
               });
