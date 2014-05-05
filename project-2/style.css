@@ -57,7 +57,9 @@ svg {padding-bottom: 50px;}
 
 h1 {font-family: 'Pacifico', cursive;
 	font-size: 1.5em;
-	color:#e2558b;}			
+	color:#e2558b;
+	padding-top: 50px;
+	margin-left: 375px}			
 		
 .land {fill: #e2558b;}
 
