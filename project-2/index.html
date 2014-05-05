@@ -35,13 +35,18 @@
                 return "translate(" + projection([d.longitude,d.latitude]) + ")";
               });
 
-d3.json("/mbostock/raw/4090846/world-50m.json", function(error, world) {
-  svg.insert("path", ".graticule")
-      .datum(topojson.feature(world, world.objects.land))
-      .attr("class", "land")
-      .attr("d", path);
+            d3.json("/mbostock/raw/4090846/world-50m.json", function(error, world) {
+            svg.insert("path", ".graticule")
+            .datum(topojson.feature(world, world.objects.land))
+            .attr("class", "land")
+            .attr("d", path);
 
-              }
+            svg.insert("path", ".graticule")
+            .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+            .attr("class", "boundary")
+            .attr("d", path);
+
+            }
         </script>
         
         <script src='http://design-trends.herokuapp.com/players.js?limit=150&order=followers_count&callback=renderGraph&fields=username,likes_received_count,draftees_count,followers_count,country,latitude,longitude,avatar_url'></script>
