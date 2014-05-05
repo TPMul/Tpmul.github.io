@@ -1,4 +1,4 @@
-
+$(document).ready(function() {
 $('#overlay').hide();
 $('.details').hide();
 
