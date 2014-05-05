@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
 $('#overlay').hide();
 $('.details').hide();
 
@@ -25,7 +25,7 @@ $('.player').click(function() {
    $('#overlay').click(function() {
 	hidePlayer();
 });
-
+*/
 //mapping the data of the top 250 players with likes_received count
 
         function renderGraph(ourData) {
