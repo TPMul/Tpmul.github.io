@@ -59,8 +59,8 @@ $('.product').click(function() {
               .append("circle")
               .style("fill", function(d) {
               return d.likes_received_count > 50000 ? "rgba(37,205,207,0.9)" : 
-                     d.likes_received_count > 10000 ? "rgba(255,234,91,0.5)" :
-               "rgba(0,0,0,0.25)"
+                     d.likes_received_count > 10000 ? "rgba(37,205,207,0.5)" :
+               "rgba(37,205,207,0.25)"
                })
               .attr("class", "players")
               .attr("data", function(d) { return d.username})
