@@ -80,9 +80,9 @@ $('.player').click(function() {
               				   .style("left", (d3.event.pageX) + "px")
               				   .style("top", (d3.event.pageY-100) + "px") })  
               				   
-             .on("mouseout", function(d) {
-             	.duration(500)
-                .style("opacity", 0);
+             .on("mouseout", function(d) { div.transition()
+				           .duration(500)
+				           .style("opacity", 0)
              });
 
 //tryin to add the land behind the mapping
