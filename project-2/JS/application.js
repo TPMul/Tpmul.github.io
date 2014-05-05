@@ -66,10 +66,7 @@ d3.json("/mbostock/raw/4090846/world-50m.json", function(error, world) {
 
 
 d3.select(self.frameElement).style("height", height + "px");
-
-
-
-            }
+};
 
 $(document).ready(function() {
 $('#overlay').hide();
