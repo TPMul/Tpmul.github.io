@@ -1,12 +1,8 @@
 
-/* click functionality testing
-
-$(document).ready(function() {
 $('#overlay').hide();
 $('.details').hide();
-});
 
-function showProduct(ourData){
+function showPlayer(ourData){
   var player=Players [ourData];
   $("#overlay").show();
   $('.details').show();
@@ -15,22 +11,20 @@ function showProduct(ourData){
   $('#player-description').text(player.likes_received_count + " " + playerdraftees_count + " " + followers_count);
 };
 
-function hideProduct() {
+function hidePlayer() {
   $("#overlay").hide();
   $('.details').hide();
 };
 
-$('.product').click(function() {
+$('.player').click(function() {
     
     var player=$(this).data(function(d) { return d.username});
-	showProduct(bot);
+	showPlayer(player);
 });
 
    $('#overlay').click(function() {
-	hideProduct();
+	hidePlayer();
 });
-
-*/
 
 //mapping the data of the top 250 players with likes_received count
 
