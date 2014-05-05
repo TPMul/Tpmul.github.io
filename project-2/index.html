@@ -22,7 +22,7 @@
 
 
             svg.selectAll("circle")
-            .data(dataset2)
+            .data(ourData)
             .enter()
             .append("circle")
             .attr('fill', "steelblue")
@@ -30,7 +30,7 @@
             .attr("cy",(ourData, function(d) {return d.likes_received_count})
             .attr("r", function(d) {
                 return Math.sqrt(svgH - d[1])
-            };
+            }
 
         </script>
          <script src='http://design-trends.herokuapp.com/players.js?limit=150&order=followers_count&fields=username,likes_received_count,draftees_count,followers_count,country,avatar_url'></script>
