@@ -49,7 +49,7 @@
              .on("mouseover", function(d) {div.transition()
               				   .duration(200)
               				   .style("opacity", 1)
-              				   div .html("<h2>d.username</h2>" + " has drafted " + d.draftees_count + " Draftees " + "<br>" + d.likes_received_count + " Likes received" + "<br>" + "Are from " + d.country)
+              				   div .html("<h2>"'d.username'"</h2>" + " has drafted " + d.draftees_count + " Draftees " + "<br>" + d.likes_received_count + " Likes received" + "<br>" + "Are from " + d.country)
               				   .style("left", (d3.event.pageX) + "px")
               				   .style("top", (d3.event.pageY-100) + "px") })  
               				   
