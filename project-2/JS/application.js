@@ -65,10 +65,10 @@ $('.product').click(function() {
               .attr("class", "players")
               .attr("data", function(d) { return d.username})
               .attr("r", function(d) { 
-              			return d.draftees_count > 100 ? 5 :
-              			       d.draftees_count > 50 ? 3 :
-              			       d.draftees_count > 20 ? 2 :
-              			       1 
+              			return d.draftees_count > 100 ? 10 :
+              			       d.draftees_count > 50 ? 8 :
+              			       d.draftees_count > 20 ? 5 :
+              			       2.5 
               				      })
               .attr("transform", function(d) {
                 return "translate(" + projection([d.longitude,d.latitude]) + ")";
