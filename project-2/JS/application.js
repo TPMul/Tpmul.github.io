@@ -1,5 +1,5 @@
 
-// click functionality testing
+/* click functionality testing
 
 $(document).ready(function() {
 $('#overlay').hide();
@@ -29,6 +29,8 @@ $('.product').click(function() {
    $('#overlay').click(function() {
 	hideProduct();
 });
+
+*/
 
 //mapping the data of the top 250 players with likes_received count
 
