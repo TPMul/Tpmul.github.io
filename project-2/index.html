@@ -23,22 +23,22 @@
             var xScale = d3.scale.linear(),
                 yScale = d3.scale.linear();
 
-            var maxLikesR = d3.max(ourData, function(d) {return d.draftees_count }),
-                maxDrafteesC = d3.max(ourData, function(d) {return d.likes_received_count });    
+            var maxLikesR = d3.max(ourData, function(d) {return d.likes_received_count }),
+                maxDrafteesC = d3.max(ourData, function(d) {return d.draftees_count });    
 
              xScale.range([ 50, 1500 ])
-              .domain([ 0, maxDrafteesC ])
+              .domain([ 0, maxLikesR ])
 
             yScale.range( [800, 50] )
-              .domain( [0, maxLikesR ])   
+              .domain( [0, maxDrafteesC ])   
 
             svg.selectAll("circle")
               .data(ourData)
               .enter()
               .append("circle")
               .attr('fill', "steelblue")
-              .attr("cx", function(d) {return xScale(d.draftees_count)})
-              .attr("cy", function(d) {return yScale(d.likes_received_count)})
+              .attr("cx", function(d) {return xScale(d.likes_received_count)})
+              .attr("cy", function(d) {return yScale(d.draftees_count)})
               .attr("r", 4);
             }
         </script>
