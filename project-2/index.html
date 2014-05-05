@@ -35,6 +35,12 @@
                 return "translate(" + projection([d.longitude,d.latitude]) + ")";
               });
 
+d3.json("/mbostock/raw/4090846/world-50m.json", function(error, world) {
+  svg.insert("path", ".graticule")
+      .datum(topojson.feature(world, world.objects.land))
+      .attr("class", "land")
+      .attr("d", path);
+
               }
         </script>
         
