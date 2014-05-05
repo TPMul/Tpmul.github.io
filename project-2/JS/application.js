@@ -1,4 +1,35 @@
 
+// click functionality testing
+
+$(document).ready(function() {
+$('#overlay').hide();
+$('.details').hide();
+});
+
+function showProduct(ourData){
+  var player=Players [ourData];
+  $("#overlay").show();
+  $('.details').show();
+  $('#player-name').text(player.username);
+  $('#player-avatar').attr('src', avatar_url);
+  $('#player-description').text(player.likes_received_count + " " + playerdraftees_count + " " + followers_count);
+};
+
+function hideProduct() {
+  $("#overlay").hide();
+  $('.details').hide();
+};
+
+$('.product').click(function() {
+    
+    var player=$(this).data(function(d) { return d.username});
+	showProduct(bot);
+});
+
+   $('#overlay').click(function() {
+	hideProduct();
+});
+
 //mapping the data of the top 250 players with likes_received count
 
         function renderGraph(ourData) {
@@ -66,33 +97,4 @@ d3.json("/mbostock/raw/4090846/world-50m.json", function(error, world) {
 
 
 d3.select(self.frameElement).style("height", height + "px");
-};
-
-$(document).ready(function() {
-$('#overlay').hide();
-$('.details').hide();
-});
-
-function showProduct(ourData){
-  var player=Players [ourData];
-  $("#overlay").show();
-  $('.details').show();
-  $('#player-name').text(player.username);
-  $('#player-avatar').attr('src', avatar_url);
-  $('#player-description').text(player.likes_received_count + " " + playerdraftees_count + " " + followers_count);
-};
-
-function hideProduct() {
-  $("#overlay").hide();
-  $('.details').hide();
-};
-
-$('.product').click(function() {
-    
-    var player=$(this).data(function(d) { return d.username});
-	showProduct(bot);
-});
-
-   $('#overlay').click(function() {
-	hideProduct();
-});
+}
