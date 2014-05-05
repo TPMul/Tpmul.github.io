@@ -25,6 +25,7 @@
             .data(dataset2)
             .enter()
             .append("circle")
+            .attr('fill', "steelblue")
             .attr("cx", (ourData, function(d) {return d.draftees_count})
             .attr("cy",(ourData, function(d) {return d.likes_received_count})
             .attr("r", function(d) {
