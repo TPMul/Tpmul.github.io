@@ -112,10 +112,10 @@ h1 {font-family: 'Pacifico', cursive;
   padding-left:20px;
 }
 
-div.tooltip {position:absolute;
+div.overlay {position:absolute;
 		text-align:left;
 		padding:5px;
-		width:125px;
+		width:200px;
 		font:10px sans-serif;
 		background-color:white;
 		line-height:2em;
@@ -124,3 +124,6 @@ div.tooltip {position:absolute;
 		border-radius:3px;
 		pointer-events:none;
 		z-index:1;}
+		
+.overlay h2 {font-weight:bold;
+	     font-size:1.5em;}		
