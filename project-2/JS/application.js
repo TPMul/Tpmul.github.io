@@ -64,7 +64,12 @@ $('.product').click(function() {
                })
               .attr("class", "players")
               .attr("data", function(d) { return d.username})
-              .attr("r", 2.5)
+              .attr("r", function(d) { return d.draftees_count > 100 ? 5 :
+              				      d.draftees_count > 50 ? 3 :
+              				      d.draftees_count > 20 ? 2 :
+              				      d.draftees_count > 5 ? 1);
+              });
+              				      
               .attr("transform", function(d) {
                 return "translate(" + projection([d.longitude,d.latitude]) + ")";
               });
