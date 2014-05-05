@@ -26,9 +26,7 @@
             .enter()
             .append("circle")
             .attr("cx", (ourData, function(d) {return d.draftees_count});
-            })
             .attr("cy",(ourData, function(d) {return d.likes_received_count});
-            })
             .attr("r", function(d) {
                 return Math.sqrt(svgH - d[1]);
             });
