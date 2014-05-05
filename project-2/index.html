@@ -24,7 +24,7 @@
                 yScale = d3.scale.linear();
 
             var maxLikesR = d3.max(ourData, function(d) {return d.likes_received_count }),
-                maxDrafteeC = d3.max(ourData, function(d) {return d.draftees_count });    
+                maxDrafteesC = d3.max(ourData, function(d) {return d.draftees_count });    
 
              xScale.range([ 50, 1500 ])
               .domain([ 0, maxLikesR ])
