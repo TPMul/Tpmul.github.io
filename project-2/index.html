@@ -10,28 +10,26 @@
     <body>    
         <script>
 
-        var svg = d3.select("body").append("svg");
-
-        var svgW = 1500;
-        var svgH = 800;
 
         function renderGraph(ourData) {
         console.log(ourData);
 
-           var projection = d3.geo.equirectangular();
-
             var svg = d3.select("body")
-                        .append("svg")
-                        .attr("width", svgW)
-                        .attr("height", svgH);
+                .append("svg"),
+                .attr("width", svgW),
+                .attr("height", svgH);
 
-            
+            var svgW = 1500;
+            var svgH = 800;
+
+
+           var projection = d3.geo.equirectangular();      
 
             svg.selectAll("circles.points")
             .data(ourData)
               .enter()
               .append("circle")
-              .style("fill", "steelblue"
+              .style("fill", "steelblue")
               .attr("r", 4);
 
               }
