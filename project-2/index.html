@@ -30,7 +30,10 @@
               .enter()
               .append("circle")
               .style("fill", "steelblue")
-              .attr("r", 4);
+              .attr("r", 4)
+              .attr("transform", function(d) {
+                return "translate(" + projection([d.longitude,d.latitude]) + ")";
+              });
 
               }
         </script>
