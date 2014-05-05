@@ -12,24 +12,7 @@
          function renderGraph(ourData) {
         console.log(ourData);
 
-            var svgW = 1000;
-            var svgH = 600;
 
-            var svg = d3.select("body")
-                        .append("svg")
-                        .attr("width", svgW)
-                        .attr("height", svgH);
-
-
-            svg.selectAll("circle")
-            .data(ourData)
-            .enter()
-            .append("circle")
-            .attr('fill', "steelblue")
-            .attr("cx", function(d) {return d.draftees_count}
-            .attr("cy", function(d) {return d.likes_received_count}
-            .attr("r", function(d) {
-                return Math.sqrt(svgH - d[1]);
             }
         </script>
         
