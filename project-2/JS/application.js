@@ -81,8 +81,8 @@ $('.player').click(function() {
               				   .style("top", (d3.event.pageY-100) + "px") })  
               				   
              .on("mouseout", function(d) {
-             	duration(200)
-                .style("opacity", 1);
+             	duration(500)
+                .style("opacity", 0);
              });
 
 //tryin to add the land behind the mapping
