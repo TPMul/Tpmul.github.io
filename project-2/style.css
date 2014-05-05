@@ -50,7 +50,8 @@ table {
 /* Add Styles Here */
 
 body {margin-right: auto 0;
-	  margin-left: auto 0;} 
+	  margin-left: auto 0;
+	 background: url('images/map.png'); }
 		
 svg {padding-bottom: 50px;}
 
