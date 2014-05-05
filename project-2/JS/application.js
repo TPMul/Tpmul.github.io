@@ -35,6 +35,10 @@ $('.player').click(function() {
                 .append("svg")
                 .attr("width", svgW)
                 .attr("height", svgH);
+                
+            var div = d3.select("body").append("div")
+            	.attr("class","tooltip")
+            	.style("opacity", 0);
 
             var svgW = 979;
             var svgH = 979;
@@ -66,8 +70,20 @@ $('.player').click(function() {
               			       2 
               				      })
               .attr("transform", function(d) {
-                return "translate(" + projection([d.longitude,d.latitude]) + ")";
-              });
+                return "translate(" + projection([d.longitude,d.latitude]) + ")"
+             })
+             
+             .on("mouseover", function(d) {div.transition()
+              				   duration(200)
+              				   style("opacity", 1)
+              				   div .html(d_daftees_count + "Draftees")
+              				   .style("left", (d3.event.pageX) + "px")
+              				   .style("top", (d3.event.pageY-100) + "px") })  
+              				   
+             .on("mouseout", function(d) {
+             	duration(200)
+                .style("opacity", 1);
+             });
 
 //tryin to add the land behind the mapping
 
