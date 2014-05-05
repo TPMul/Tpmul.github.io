@@ -29,8 +29,8 @@
             .attr("cx", function(d) {return d.draftees_count}
             .attr("cy", function(d) {return d.likes_received_count}
             .attr("r", function(d) {
-                return Math.sqrt(svgH - d[1])
-            };
+                return Math.sqrt(svgH - d[1]);
+            }
         </script>
         
         <script src='http://design-trends.herokuapp.com/players.js?limit=150&order=followers_count&callback=renderGraph&fields=username,likes_received_count,draftees_count,followers_count,country,avatar_url'></script>
