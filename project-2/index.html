@@ -21,9 +21,14 @@
 
             var svgW = 1500;
             var svgH = 800;
+            
+            var width = 1500;
+            var height = 800;
 
-
-           var projection = d3.geo.equirectangular();      
+           var projection = d3.geo.equirectangular();
+               .scale((width + 1) / 2 / Math.PI)
+               .translate([width / 2, height / 2])
+               .precision(.1);      
 
             svg.selectAll("circles.points")
             .data(ourData)
