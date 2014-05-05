@@ -50,6 +50,7 @@
             .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
             .attr("class", "boundary")
             .attr("d", path);
+            });
 
             }
         </script>
