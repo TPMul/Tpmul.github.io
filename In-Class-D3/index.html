@@ -1,0 +1,72 @@
+<html lang="en"><head>
+        <meta charset="utf-8">
+        <title>Dribbble D3 Exercise</title>
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    </head>
+    <body>    
+      
+      <script> function renderGraph(ourData) {
+        console.log(ourData);
+
+      var divs = d3.select('body').selectAll("img");
+
+      divs.data(ourData)
+          .enter()
+            .append("img")
+            .attr("src", function(player) {return player.avatar_url;})
+            .attr("width", 100)
+            .attr("height", 100);
+      
+      
+
+      var svg = d3.select("body").append("svg")
+                .attr("width", 1200)
+                .attr("height", 780);
+
+      var xScale = d3.scale.linear(),
+          yScale = d3.scale.linear();
+
+
+      var maxLikesR = d3.max(ourData, function(d) {return d.likes_received_count });
+      var maxLikes = d3.max(ourData, function(d) {return d.likes_count });    
+
+      xScale.range([ 50, 1200 ])
+            .domain([ 0, maxLikesR ])
+
+      yScale.range( [700, 50] )
+            .domain( [0, maxLikes ])          
+
+      svg.selectAll("circle")
+        .data(ourData)
+        .enter()
+          .append("circle")
+          .attr("fill","steelblue")
+          .attr("r", 4 )
+          .attr("cx", function(d) {return xScale(d.likes_received_count) })
+          .attr("cy", function(d) {return yScale(d.likes_count)});
+
+          var xAxis =d3.svg.axis()
+          .orient("bottom")
+          .scale(xScale);
+
+          var yAxis =d3.svg.axis()
+          .orient("left")
+          .scale(yScale);
+
+            svg.append('g')
+          .attr("transform", "translate (70,0)")
+          .call(yAxis);
+
+          svg.append('g')
+          .attr("transform", "translate (0,725)")
+          .call(xAxis);
+        }
+</script>
+    
+    <script src='http://design-trends.herokuapp.com/players.js?limit=100&order=likes_received_count&has_images=true&callback=renderGraph&fields=username,country,likes_received_count,likes_count,avatar_url'></script>
+  
+
+        
+    
+    </body>
+</html>

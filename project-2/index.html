@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Project 2|Tucker Mulcahy</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="d3/d3.v3.js"></script>
+    </head>
+    <body>    
+        <script type="text/javascript">
+
+         function renderGraph(ourData) {
+        console.log(ourData);
+
+            var svgW = 1000;
+            var svgH = 600;
+
+            var svg = d3.select("body")
+                        .append("svg")
+                        .attr("width", svgW)
+                        .attr("height", svgH);
+
+
+            svg.selectAll("circle")
+            .data(dataset2)
+            .enter()
+            .append("circle")
+            .attr("cx", (ourData, function(d) {return d.draftees_count});
+            })
+            .attr("cy",(ourData, function(d) {return d.likes_received_count});
+            })
+            .attr("r", function(d) {
+                return Math.sqrt(svgH - d[1]);
+            });
+
+        </script>
+         <script src='http://design-trends.herokuapp.com/players.js?limit=150&order=followers_count&fields=username,likes_received_count,draftees_count,followers_count,country,avatar_url'></script>
+    </body>
+</html>     
