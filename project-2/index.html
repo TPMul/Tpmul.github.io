@@ -5,6 +5,7 @@
         <title>Project 2|Tucker Mulcahy</title>
         <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
         <script type="text/javascript" src="d3/d3.v3.js"></script>
+        <script src="http://d3js.org/topojson.v1.min.js"></script>
     </head>
     <body>    
         <script>
@@ -12,38 +13,60 @@
          function renderGraph(ourData) {
         console.log(ourData);
 
-            var svgW = 1500;
-            var svgH = 800;
+           var svgW = 1500;
+           var svgH = 800;
+
+           var projection = d3.geo.equirectangular();
+
+
+            
 
             var svg = d3.select("body")
                         .append("svg")
                         .attr("width", svgW)
                         .attr("height", svgH);
 
-            var xScale = d3.scale.linear(),
-                yScale = d3.scale.linear();
+            
 
-            var maxLikesR = d3.max(ourData, function(d) {return d.likes_received_count }),
-                maxDrafteesC = d3.max(ourData, function(d) {return d.draftees_count });    
-
-             xScale.range([ 50, 1500 ])
-              .domain([ 0, maxLikesR ])
-
-            yScale.range( [800, 50] )
-              .domain( [0, maxDrafteesC ])   
-
-            svg.selectAll("circle")
-              .data(ourData)
+            svg.selectAll("circles.points")
+            .data(ourData)
               .enter()
               .append("circle")
-              .attr('fill', "#e2558b")
-              .attr("cx", function(d) {return xScale(d.likes_received_count)})
-              .attr("cy", function(d) {return yScale(d.draftees_count)})
-              .attr("r", 4);
+              .style("fill",function(d) {
+                return d.likes_received_count > 1000 ? "rgba(255,0,0,0.25)" : 
+                d.likes_received_count > 10000 ? "rgba(0,255,0,0.25)" :
+                "rgba(0,0,0,0.10)"
+                })
+      
+              .attr(function(d) {
+                return Math.sqrt(svgH - d[draftees_count]))
+
+              .attr("transform", function(d) {
+                return "translate(" + projection([d.longitude,d.latitude]) + ")";
+              });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
             }
         </script>
         
-        <script src='http://design-trends.herokuapp.com/players.js?limit=150&order=followers_count&callback=renderGraph&fields=username,likes_received_count,draftees_count,followers_count,country,avatar_url'></script>
+        <script src='http://design-trends.herokuapp.com/players.js?limit=150&order=followers_count&callback=renderGraph&fields=username,likes_received_count,draftees_count,followers_count,country,latitude,longitude,avatar_url'></script>
 
     </body>
 </html>     
