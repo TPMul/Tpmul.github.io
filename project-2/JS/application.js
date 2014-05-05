@@ -58,9 +58,9 @@ $('.product').click(function() {
               .enter()
               .append("circle")
               .style("fill", function(d) {
-              return d.likes_received_count > 50000 ? "rgba(37,205,207,0.9)" : 
-                     d.likes_received_count > 10000 ? "rgba(37,205,207,0.75)" :
-                     d.likes_received_count > 5000 ? "rgba(37,205,207,0.5)" :
+              return d.likes_received_count > 50000 ? "rgba(120,245,199,0.9)" : 
+                     d.likes_received_count > 10000 ? "rgba(120,216,245,0.75)" :
+                     d.likes_received_count > 5000 ? "rgba(120,139,245,0.5)" :
                "rgba(255,255,255,0.25)"
                })
               .attr("class", "players")
