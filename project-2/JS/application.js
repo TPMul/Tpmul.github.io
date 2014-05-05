@@ -1,31 +1,4 @@
-/*$(document).ready(function() {
-$('#overlay').hide();
-$('.details').hide();
 
-function showPlayer(ourData){
-  var player=Players [ourData];
-  $("#overlay").show();
-  $('.details').show();
-  $('#player-name').text(player.username);
-  $('#player-avatar').attr('src', avatar_url);
-  $('#player-description').text(player.likes_received_count + " " + playerdraftees_count + " " + followers_count);
-};
-
-function hidePlayer() {
-  $("#overlay").hide();
-  $('.details').hide();
-};
-
-$('.player').click(function() {
-    
-    var player=$(this).data(function(d) { return d.username});
-	showPlayer(player);
-});
-
-   $('#overlay').click(function() {
-	hidePlayer();
-});
-*/
 //mapping the data of the top 250 players with likes_received count
 
         function renderGraph(ourData) {
@@ -76,7 +49,7 @@ $('.player').click(function() {
              .on("mouseover", function(d) {div.transition()
               				   .duration(200)
               				   .style("opacity", 1)
-              				   div .html(d.draftees_count + "Draftees " + "<br>" + d.likes_received_count + "Likes received")
+              				   div .html(d.username + " has drafted " + d.draftees_count + " Draftees " + "<br>" + d.likes_received_count + " Likes received")
               				   .style("left", (d3.event.pageX) + "px")
               				   .style("top", (d3.event.pageY-100) + "px") })  
               				   
