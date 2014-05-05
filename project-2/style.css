@@ -52,7 +52,8 @@ table {
 body {margin-right: auto 0;
 	  margin-left: auto 0;
 	 background:url('images/map.png'); 
-	 background-repeat: no-repeat,}
+	 background-repeat: no-repeat;
+	}
 		
 svg {padding-bottom: 50px;}
 
