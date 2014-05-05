@@ -29,6 +29,8 @@
                      d.likes_received_count > 10000 ? "rgba(255,234,91,0.5)" :
                "rgba(0,0,0,0.25)"
                })
+              .attr("class", "players")
+              .attr("data", function(d) { return d.username})
               .attr("r", 4)
               .attr("transform", function(d) {
                 return "translate(" + projection([d.longitude,d.latitude]) + ")";
@@ -90,7 +92,7 @@ function hideProduct() {
 
 $('.product').click(function() {
     
-    var player=$(this).data("player-id");
+    var player=$(this).data(function(d) { return d.username});
 	showProduct(bot);
 });
 
