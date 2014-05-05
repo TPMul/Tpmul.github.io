@@ -12,16 +12,13 @@
 
         var svg = d3.select("body").append("svg");
 
-         function renderGraph(ourData) {
+        var svgW = 1500;
+        var svgH = 800;
+
+        function renderGraph(ourData) {
         console.log(ourData);
 
-           var svgW = 1500;
-           var svgH = 800;
-
            var projection = d3.geo.equirectangular();
-
-
-            
 
             var svg = d3.select("body")
                         .append("svg")
