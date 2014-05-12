@@ -11,8 +11,7 @@
                 
             var div = d3.select("body").append("div")
             	.attr("class","overlay")
-            	.style("opacity", 0)
-              .attr("a","href='"+d.url+"'");
+            	.style("opacity", 0);
 
             var svgW = 979;
             var svgH = 979;
