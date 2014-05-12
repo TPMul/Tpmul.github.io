@@ -110,7 +110,7 @@ div.overlay {position:absolute;
 #zerok {width: 11px;
       height: 11px;
       border-radius: 50px;
-      background-color: rgba(215,215,215,0.25);}
+      background-color: rgba(215,215,215,0.6);}
 
 
 
@@ -152,9 +152,11 @@ div.overlay {position:absolute;
 
 #key p {padding-left:21px;
         font-family: sans-serif;
-        font-size: 14px;}
+        font-size: 14px;
+        line-height: 1.45em;}
 
-#key div {float: left;}
+#key div {float: left;
+          margin-top:5px;}
 
 .key-section {float:left;}
 
