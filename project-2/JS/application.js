@@ -11,8 +11,7 @@
                 
             var div = d3.select("body").append("div")
             	.attr("class","overlay")
-            	.style("opacity", 0)
-              .attr("a","href='"+d.url+"'");
+            	.style("opacity", 0);
 
             var svgW = 979;
             var svgH = 979;
@@ -53,6 +52,7 @@
               				   div .html("<img src='"+ d.avatar_url + "'alt='user avatar'>" + "<br>" + "<h3>"+ d.username + "</h3>" + "<br>" + "has " + d.followers_count + " people following them" + "<br>" + "has drafted " + d.draftees_count + " Draftees." + "<br>" + "has received "+ d.likes_received_count + " likes on their shots." + "<br>" + "And are from " + d.country)
               				   .style("left", (d3.event.pageX) + "px")
               				   .style("top", (d3.event.pageY-100) + "px")
+                          .attr("a","href='"+d.url+"'")
                        })  
 
              .on("mouseout", function(d) { div.transition()
