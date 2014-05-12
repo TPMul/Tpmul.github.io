@@ -143,17 +143,18 @@ div.overlay {position:absolute;
 #key h2 {font-family: sans-serif;
         font-weight:bold; 
         font-size: 1.5em;
-        padding-bottom: 6px;}
+        padding-bottom: 10px;}
 
 #key h3 {font-family: sans-serif;
         font-size: 1.25em;
-        padding-bottom: 3px;}
+        padding-bottom: 6px;}
 
-#key p {font-family: sans-serif;
-        font-size: 11px;}
+#key p {padding-left:3px;
+        font-family: sans-serif;
+        font-size: 14px;}
 
 #key div {float: left;}
 
 .key-section {float:left;}
 
-#sizes {padding-top:24px;}
+#sizes {padding-top:28px;}
