@@ -37,10 +37,10 @@
               .attr("class", "players")
               .attr("data", function(d) { return d.username})
               .attr("r", function(d) { 
-              			return d.draftees_count > 50 ? 11 :
-              			       d.draftees_count > 20 ? 8 :
-              			       d.draftees_count > 10 ? 5 :
-              			       3 
+              			return d.draftees_count > 75 ? 11 :
+              			       d.draftees_count > 35 ? 8 :
+              			       d.draftees_count > 15 ? 5 :
+              			       2 
               				      })
               .attr("transform", function(d) {
                 return "translate(" + projection([d.longitude,d.latitude]) + ")"
@@ -49,7 +49,7 @@
              .on("mouseover", function(d) {div.transition()
               				   .duration(200)
               				   .style("opacity", 1)
-              				   div .html("<h3>"+ d.username + "</h3>" + "<br>" + "has " + d.followers_count + " people following them" + "<br>" + "has drafted " + d.draftees_count + " Draftees." + "<br>" + "has received "+ d.likes_received_count + " likes on their shots." + "<br>" + "And are from " + d.country)
+              				   div .html("<img src='"+ avartar_url + "'alt='user avatar'>" + "<br>" + "<h3>"+ d.username + "</h3>" + "<br>" + "has " + d.followers_count + " people following them" + "<br>" + "has drafted " + d.draftees_count + " Draftees." + "<br>" + "has received "+ d.likes_received_count + " likes on their shots." + "<br>" + "And are from " + d.country)
               				   .style("left", (d3.event.pageX) + "px")
               				   .style("top", (d3.event.pageY-100) + "px") })  
               				   
