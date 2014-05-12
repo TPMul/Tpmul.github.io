@@ -12,8 +12,22 @@
     <body>    
         <h1>The 1000 Most Followed Players on dribbble.</h1> 
         
-        <script src='http://design-trends.herokuapp.com/players.js?limit=1000&order=followers_count&callback=renderGraph&fields=username,likes_received_count,draftees_count,followers_count,country,latitude,longitude,avatar_url'></script>
+        <script src='http://design-trends.herokuapp.com/players.js?limit=1000&order=followers_count&callback=renderGraph&fields=username,likes_received_count,draftees_count,followers_count,country,latitude,longitude,avatar_url,url'></script>
 
-        <div id='key'></div>
+        <div id='key'>
+            <h2>Key</h2>
+            <h3>Color</h3>
+            <p><div id='fiftyk'></div> = Players who have received 50,000 or more likes on their shots.</p>
+            <p><div id='tenk'></div> = Players who have received 10,000-49,999 likes on their shots.</p>
+            <p><div id='fivek'></div> = Players who have received 5,000-9,999 likes on their shots.</p>
+            <p><div id='zerok'></div> = Players who have received less than 5,000 likes on their shots.</p>
+
+            <h3>Sizes</h3>
+            <p><div id='seventyd'></div> = Players who have drafted 75 players or more.</p>
+            <p><div id='thirtyd'></div> = Players who have drafted 35-74 players.</p>
+            <p><div id='fifteend'></div> = Players who have drafted 15-34 players.</p>
+            <p><div id='zerod'></div> = Players who have drafted less than 15 people.</p>
+
+        </div>
     </body>
 </html>     

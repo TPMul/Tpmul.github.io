@@ -91,3 +91,45 @@ div.overlay {position:absolute;
               height: 100px;
               border-radius: 50px;
               margin: 0 auto; }
+
+#fiftyk {width: 11px;
+      height: 11px;
+      border-radius: 50px;
+      background-color: rgba(120,245,199,0.9);}
+
+#tenk {width: 11px;
+      height: 11px;
+      border-radius: 50px;
+      background-color: rgba(120,216,245,0.75);}
+
+#fivek {width: 11px;
+      height: 11px;
+      border-radius: 50px;
+      background-color: rgba(120,139,245,0.5);}
+
+#zerok {width: 11px;
+      height: 11px;
+      border-radius: 50px;
+      background-color: rgba(255,255,255,0.25);}
+
+
+
+#seventyd {width: 11px;
+      height: 11px;
+      border-radius: 50px;
+      background-color: rgba(50,50,50,0.9);}
+
+#thirtyd {width: 8px;
+      height: 8px;
+      border-radius: 50px;
+      background-color: rgba(50,50,50,0.9);}
+
+#fifteend {width: 5px;
+      height: 5px;
+      border-radius: 50px;
+      background-color: rgba(50,50,50,0.9);}
+
+#zerod {width: 2px;
+      height: 2px;
+      border-radius: 50px;
+      background-color: rgba(50,50,50,0.9);}
