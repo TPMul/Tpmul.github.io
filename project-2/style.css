@@ -147,9 +147,10 @@ div.overlay {position:absolute;
 
 #key h3 {font-family: sans-serif;
         font-size: 1.25em;
-        padding-bottom: 6px;}
+        padding-bottom: 6px;
+        padding-right: 430px;}
 
-#key p {padding-left:3px;
+#key p {padding-left:21px;
         font-family: sans-serif;
         font-size: 14px;}
 
