@@ -121,6 +121,8 @@ section a {text-decoration: none;
 
 .contact {clear:both; float: left; width: 22px; padding-top:13px; padding-right: 5px;}
 
+.contact-h2 {line-height: 1.5em;}
+
 .work img {float:left; width:130px;}
 
 .work img {
