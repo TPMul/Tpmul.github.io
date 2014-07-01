@@ -119,7 +119,13 @@ section a {text-decoration: none;
 		  clear:both;
 		  font-weight:lighter;}
 
-.contact {clear:both; float: left; width: 22px; padding-top:13px; padding-right: 5px;}
+.contact {clear:both; float: left; width: 22px; padding-right: 5px;}
+
+#resume-icon {padding-top: 8px;}
+
+#email-icon {padding-top: 14px;}
+
+#phone-icon {padding-top: 10px;}
 
 .contact-h2 {line-height: 1.5em;}
 
