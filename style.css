@@ -185,7 +185,10 @@ div p {font-size: .9em;
 	   
 .works-page {padding-top:2%;}
 
-.works-page img {padding-bottom:2%;}
+.works-page img {padding-bottom:2%;
+				 width:950px;}
+
+#fandroid1 {float:left;}
 
 .works-page p {font-size: 1em; line-height: 1.5em;}
 
