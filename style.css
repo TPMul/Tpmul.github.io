@@ -173,6 +173,8 @@ div p {font-size: .9em;
 #project-nav a {font-size: 1em;
 			 text-decoration: none;
 			 color:#35cfb9;
+			 font-weight: bold;
+			 float:left;
 			 display:inline;}
 	   
 	   
