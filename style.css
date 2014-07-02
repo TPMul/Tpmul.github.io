@@ -170,10 +170,10 @@ div p {font-size: .9em;
 	   font-weight: normal;
 	   text-align: left;}
 
-#project-nav {width:650px;}
+#project-nav {width:850px;}
 
 #project-nav li {float:left;
-				padding-left: 10px;}
+				padding-left: 100px;}
 
 #project-nav a {font-size: 1em;
 			 text-decoration: none;
