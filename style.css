@@ -170,7 +170,7 @@ div p {font-size: .9em;
 	   font-weight: normal;
 	   text-align: left;}
 
-#project-nav {font-size: 1em;
+#project-nav a {font-size: 1em;
 			 text-decoration: none;
 			 color:#35cfb9;
 			 display:inline;}
