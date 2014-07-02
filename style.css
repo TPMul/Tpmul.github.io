@@ -191,16 +191,17 @@ div p {font-size: .9em;
 
 .works-page a {font-family:"raleway", sans-serif; text-decoration: underline;}
 
-.works-page h2 {font-size: 2em;
+.works-page h2 {font-size: 2.5em;
 				color:#35cfb9;
-				font-weight: bold;
-				margin-bottom: 25px;}
+				margin-bottom: 35px;}
 
 .works-page h4 {font-family: 'raleway', sans-serif;
-				font-size: 1.25em;
+				font-size: 1.2em;
+				line-height: 1.25em;
 				color:#606366;
 				font-weight: bold;
-				margin-bottom: 15px;}
+				margin-bottom: 15px;
+				width:635px;}
 
 
 
