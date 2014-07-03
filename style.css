@@ -173,11 +173,10 @@ div p {font-size: .9em;
 .link-title {font-weight: bold;
 			 }
 
-#project-nav {width:715px;
-			  float:left;
+#project-nav {
 			  margin-bottom: 60px;}
 
-#project-nav ul {width:700px;
+#project-nav ul {width:705px;
 				 float: left;}
 
 #project-nav li {float: left;
