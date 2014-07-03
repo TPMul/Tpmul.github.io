@@ -235,7 +235,7 @@ div p {font-size: .9em;
   
 #logo { width:18%;}
 
-.work img {width: 75px; }
+.work img {width: 105px; }
 
 header {padding-bottom: 26%;}
 
@@ -243,7 +243,9 @@ header {padding-bottom: 26%;}
 
 #me {float: none; padding-bottom: 1%; width: 30%;}
   }
-
+ .work h2 {font-size:1.8em;
+ 		   padding-left: 16px;}
+ 		   
 
 @media (max-width: 1200px) {
   nav ul a {
