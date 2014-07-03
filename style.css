@@ -173,17 +173,17 @@ div p {font-size: .9em;
 .link-title {font-weight: bold;
 			 }
 
-#project-nav {width:915px;
+#project-nav {width:715px;
 			  margin-bottom: 60px;}
 
-#project-nav li {float:left;
+#project-nav li {
 				padding-left: 100px;}
 
 #project-nav a {font-size: 1em;
 			 text-decoration: none;
 			 color:#35cfb9;
 			 font-weight: bold;
-			 }
+			float:left; }
 	   
 	   
 .works-page {padding-top:2%;}
