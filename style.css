@@ -176,11 +176,11 @@ div p {font-size: .9em;
 #project-nav {
 			  margin-bottom: 60px;}
 
-#project-nav ul {width:705px;
+#project-nav ul {width:715px;
 				 float: left;}
 
 #project-nav li {float: left;
-				padding-left: 100px;}
+				padding-right: 100px;}
 
 #project-nav a {font-size: 1em;
 			 text-decoration: none;
