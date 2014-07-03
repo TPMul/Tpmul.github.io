@@ -177,7 +177,7 @@ div p {font-size: .9em;
 			  float:left;
 			  margin-bottom: 60px;}
 
-#project-nav li {
+#project-nav li {float: left;
 				padding-left: 100px;}
 
 #project-nav a {font-size: 1em;
