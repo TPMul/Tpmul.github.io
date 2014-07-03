@@ -214,7 +214,10 @@ div p {font-size: .9em;
 .works-page h3 {font-size: 1.5em;
 				font-family: 'Raleway', sans-serif;
 				color:#606366;
-				font-weight: bold;}
+				font-weight: bold;
+				margin-bottom: 18px;}
+
+.fokus-caps p {margin-top: -16px;}
 
 .spark-imgs img {width:900px;}
 
