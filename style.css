@@ -176,14 +176,14 @@ div p {font-size: .9em;
 #project-nav {width:715px;
 			  margin-bottom: 60px;}
 
-#project-nav li {
+#project-nav li {float:left;
 				padding-left: 100px;}
 
 #project-nav a {font-size: 1em;
 			 text-decoration: none;
 			 color:#35cfb9;
 			 font-weight: bold;
-			float:left; }
+			 }
 	   
 	   
 .works-page {padding-top:2%;}
